@@ -3041,6 +3041,7 @@ article .blog-single__action {
   height: 100%;
   width: 50%;
   margin: 0;
+  overflow: auto;
 }
 .contact-notification p:first-child {
   margin-bottom: 3.25em;

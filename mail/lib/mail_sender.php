@@ -35,8 +35,8 @@ foreach ($_POST as $key => $value)
 	$messageText .= ucfirst($key).": ".$value."\n\n";
 }
 
-if(isset($_POST['email']) && isset($_POST['name']) ){
-	$fromArray = array($_POST['email'] => $_POST['name']);
+if(isset($_POST['name']) && isset($_POST['phone']) && isset($_POST['date']) && isset($_POST['hour']) && isset($_POST['guests']) ){
+	$fromArray = array($_POST['name'] => $_POST['phone']) => $_POST['date']) => $_POST['hour']) => $_POST['guests']);
 }else{ $fromArray = array($sendingAccountUsername => $websiteName); }
 
 $message = Swift_Message::newInstance($emailSubject)
