@@ -44,14 +44,14 @@
                     </p>
                     <form class="form-email" data-error="Please complete all fields correctly" data-success="Reserva enviada, !espere respuesta pronto!">
                         <label>Nombre:</label>
-                        <input type="text" class="validate-required" />
+                        <input type="text" class="validate-required" name="name"/>
                         <label>Teléfono:</label>
-                        <input type="tel" class="validate-required" />
+                        <input type="tel" class="validate-required" name="phone" />
                         <label>Fecha de Reserva:</label>
-                        <input type="date" />
+                        <input type="date" name="date" />
                         <div>
                             <label>Hora:</label>
-                            <select>
+                            <select name="hour">
                                 <option>6:00pm</option>
                                 <option>6:30pm</option>
                                 <option>7pm</option>
@@ -64,7 +64,7 @@
                         </div>
                         <div>
                             <label>Número de Invitados:</label>
-                            <select>
+                            <select name="guests">
                                 <option>1</option>
                                 <option>2</option>
                                 <option>3</option>
@@ -103,9 +103,9 @@
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="restaurant-blog.html">
+                                                <a href="restaurant-gallery.html">
                                                     <span class="underline active">
-                                                        Latest News
+                                                        Gallery
                                                     </span>
                                                 </a>
                                             </li>
