@@ -1,0 +1,190 @@
+{
+  "foods":[
+  {
+    "food":{
+      "nombre": "Atún Sellado en Berenjena",
+      "descripcion": "Atún servido en piel de berenjena sobre una cama de espárragos a la plancha, reducción de oporto y tomates cherry al ajillo. Clasico Catalán",
+      "foto": "http://placehold.it/150x150",
+      "banner": "http://placehold.it/350x150",
+      "bebidas": {
+        "bebida": "Bebida Generica"
+      },
+      "tags":{
+        "tag":"Libre de Gluten"
+      },
+      "precio": "$170"
+    }
+  },
+    {
+      "food":{
+        "nombre": "Arancino Siciliano",
+        "descripcion": "Bola de arroz rellena de salsa bolognesa y mozarella fresca, servida con una salsa de pimiento rojo, tipíco de Sicilia.",
+        "foto": "http://placehold.it/150x150",
+        "banner": "http://placehold.it/350x150",
+        "bebidas": {
+          "bebida": "Bebida Generica"
+        },
+        "tags":{
+          "tag":""
+        },
+        "precio": "$80"
+      }
+    },
+    {
+      "food":{
+        "nombre": "Tártara de Atún",
+        "descripcion": "Cortado al momento, marinado en salsa de soya, champiñon y cebolla morada.",
+        "foto": "http://placehold.it/150x150",
+        "banner": "http://placehold.it/350x150",
+        "bebidas": {
+          "bebida": "Bebida Generica"
+        },
+        "tags":{
+          "tag":""
+        },
+        "precio": "$105"
+      }
+
+    },
+    {
+      "food":{
+        "nombre": "Pork Belly",
+        "descripcion": "Cocinado de 73° por 12 horas en salsa de soya, vinagre de arroz y jengibre. Servido crujiente en una cama de arroz blanco, tipíco de Singapur.",
+        "foto": "http://placehold.it/150x150",
+        "banner": "http://placehold.it/350x150",
+        "bebidas": {
+          "bebida": "Bebida Generica"
+        },
+        "tags":{
+          "tag":""
+        },
+        "precio": "$150"
+      }
+    },
+    {
+      "food":{
+        "nombre": "Mejillones Estilo Belga",
+        "descripcion": "Clasico de Bruxelles servido con una salsa de crema, vino blanco y apio.",
+        "foto": "http://placehold.it/150x150",
+        "banner": "http://placehold.it/350x150",
+        "bebidas": {
+          "bebida": "Bebida Generica"
+        },
+        "tags":{
+          "tag":""
+        },
+        "precio": "$145"
+      }
+
+    },
+    {
+      "food":{
+        "nombre": "Espaldilla de Res",
+        "descripcion": "Glaseado de Miso y Sake, servido con crema de guinnes, tomatillo y acelga al vapor.",
+        "foto": "http://placehold.it/150x150",
+        "banner": "http://placehold.it/350x150",
+        "bebidas": {
+          "bebida": "Bebida Generica"
+        },
+        "tags":{
+          "tag":""
+        },
+        "precio": "$170"
+      }
+
+    },
+    {
+      "food":{
+        "nombre": "Costilla de Cordero",
+        "descripcion": "Rack de cordero cocinado a 62°C en costra de mostaza y cebollin, servido con papas cambray y tomillo.",
+        "foto": "http://placehold.it/150x150",
+        "banner": "http://placehold.it/350x150",
+        "bebidas": {
+          "bebida": "Bebida Generica"
+        },
+        "tags":{
+          "tag":""
+        },
+        "precio": "$295"
+      }
+
+    },
+    {
+      "food":{
+        "nombre": "Carnitas de Pato",
+        "descripcion": "Pato desmigado, acompañado de chiles toreados, cebolla asada, guacamole y tortillas de maiz",
+        "foto": "http://placehold.it/150x150",
+        "banner": "http://placehold.it/350x150",
+        "bebidas": {
+          "bebida": "Bebida Generica"
+        },
+        "tags":{
+          "tag":"Libre de gluten"
+        },
+        "precio": "$170"
+      }
+    },
+    {
+      "food":{
+        "nombre": "Rib Eye Estilo Japones",
+        "descripcion": "Rib Eye a cocción media, servida con nopales, cebolletas y salsa sukiyaki.",
+        "foto": "http://placehold.it/150x150",
+        "banner": "http://placehold.it/350x150",
+        "bebidas": {
+          "bebida": "Bebida Generica"
+        },
+        "tags":{
+          "tag":""
+        },
+        "precio": "$170"
+      }
+    },
+    {
+      "food":{
+        "nombre": "Pannacotta de Frutos Rojos",
+        "descripcion": "Pannacota clásica de frutos rojos acompañados con reduccion de vinagre balsámico.",
+        "foto": "http://placehold.it/150x150",
+        "banner": "http://placehold.it/350x150",
+        "bebidas": {
+          "bebida": "Bebida Generica"
+        },
+        "tags":{
+          "tag":""
+        },
+        "precio": "$80"
+      }
+    },
+    {
+      "food":{
+        "nombre": "Sopa de Piña",
+        "descripcion": "Tarta de piña en su almibar, helado de coco y piña colada.",
+        "foto": "http://placehold.it/150x150",
+        "banner": "http://placehold.it/350x150",
+        "bebidas": {
+          "bebida": "Bebida Generica"
+        },
+        "tags":{
+          "tag":""
+        },
+        "precio": "$80"
+      }
+    },
+    {
+      "food":{
+        "nombre": "Pan de Elote",
+        "descripcion": "Pan de elote con crema de rompope y palomitas caramelizadas.",
+        "foto": "http://placehold.it/150x150",
+        "banner": "http://placehold.it/350x150",
+        "bebidas": {
+          "bebida": "Bebida Generica"
+        },
+        "tags":{
+          "tag":""
+        },
+        "precio": "$80"
+      }
+
+    }
+
+  ]
+}
