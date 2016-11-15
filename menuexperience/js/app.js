@@ -40,8 +40,8 @@ $$(document).on('click','.ks-generate-page', function() {
             '    <div class="page-content">' +
             '      <div class="content-block">' +
             '<img style="width: 100%" src="'+plate.food.banner+'">' +
-            '<p>'+ plate.food.descripcion+'</p>' +
             tags.join("")+
+            '<p>'+ plate.food.longDescripcion+'</p>' +
             '      </div>' +
             '    </div>' +
             '  </div>' +
