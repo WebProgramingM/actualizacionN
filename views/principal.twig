@@ -1,0 +1,105 @@
+{% extends 'templates/main.twig' %}
+
+{% block extraStyles %}
+{% endblock %}
+
+{% block SiteContent %}
+
+	<div id="fullpage">
+		<div class="section " id="section0">
+			<ul id="menu-home" class="hidden-xs">
+				<li><a href="#Menue/menuhome" >Menú</a></li>
+				<li><a href="#Reserve" >Reservaciones</a></li>
+				<li><a href="#Location" >Ubicación</a></li>
+				<li><a href="#Gallery" >Galeria</a></li>
+				<li><a href="#Contact" >Contacto</a></li>
+			</ul>
+			<div class="overlaypattern"></div>
+			<video autoplay loop muted data-keepplaying id="videohome">
+				<source src="video/nomads.mp4" type="video/mp4">
+				<source src="video/nomads.webm" type="video/webm">
+				<source src="video/nomads.ogg" type="video/ogg">
+			</video>
+			<div class="layer">
+				<img src="img/logohome.png" alt="Nomads Cocina & Barra">
+				<br>
+				<a href="#Reserve"class="btn btn-nomads">RESERVA AHORA</a>
+			</div>
+		</div>
+		<div class="section" id="section1">
+			<div class="slide homenu" data-anchor="homemenu">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12 col-sm-6 col-sm-offset-6">
+							<h2>ME<br>&nbsp;&nbsp;NÚ</h2>
+							<p>Una experiencia completamente nueva instalada en una atmósfera cálida y tropical. Inspirada en los viajeros a través de los sabores que recorren el mundo; le ponemos nuestra personalidad a cada una de nuestros platillos y bebidas.</p>
+							<a href="#Menue/menudisplay1" class="btn btn-nomads flat">Mirar el Menu</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="slide menudisplay fondo01" data-anchor="menudisplay1">
+				{% include 'menu.twig' %}
+			</div>
+			<div class="slide menudisplay fondo02" data-anchor="menudisplay2">
+				{% include 'menu2.twig' %}
+			</div>
+			<div class="slide menudisplay fondo03" data-anchor="menudrinks">
+				{% include 'menudrinks.twig' %}
+			</div>
+			<div class="slide menudisplay fondo04" data-anchor="menubowls">
+				{% include 'menubowls.twig' %}
+			</div>
+		</div>
+		<div class="section" id="section2">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 col-sm-4">
+						<h2><i class="icon-reservetable"></i>&nbsp;RE<br>SER<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;VA</h2>
+						<p><b>¿Necesitas Ayuda?,</b> envíanos un correo a: <a href="mailto:reserva@nomadscancun.com">reserva@nomadscancun.com</a> |
+						Para <b>grupos y eventos especiales</b>, <a href="mailto:grupos@nomadscancun.com">Haz Click Aquí</a> | Tel: <a href="tel:">998 000 0000</a>
+						</p>
+						<script type='text/javascript' src='//www.opentable.com.mx/widget/reservation/loader?rid=335830&domain=commx&type=standard&theme=standard&lang=es&overlay=false&iframe=true'></script>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="section fp-auto-height" id="section3">
+			<div class="grid">
+				<div class="grid-sizer"></div>
+				{% for image in gallery %}
+					<div class="grid-item ">
+						<a href="{{ image }}" class="gal">
+							<img src="{{ image }}" alt="">
+						</a>
+					</div>
+				{% endfor %}
+			</div>
+		</div>
+
+		<div class="section" id="section4">
+			<h2>Ubicacion</h2>
+		</div>
+
+		<div class="section" id="section5">
+			<h2>Contacto</h2>
+		</div>
+	</div>
+
+	<div class="overlay overlay-scale">
+		<button type="button" class="overlay-close">Close</button>
+		<nav>
+			<ul>
+				<li><a href="#Menue/menuhome">Menú</a></li>
+				<li><a href="#Reserve">Reservaciones</a></li>
+				<li><a href="#Location">Ubicación</a></li>
+				<li><a href="#Gallery">Galeria</a></li>
+				<li><a href="#Contact">Contacto</a></li>
+			</ul>
+		</nav>
+	</div>
+
+{% endblock %}
+
+{% block extraScripts %}
+{% endblock %}

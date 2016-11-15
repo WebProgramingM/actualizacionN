@@ -1,0 +1,219 @@
+body
+	font-family: 'Raleway', sans-serif;
+	background #201d21
+
+
+
+$gold-nomads = #bf8204
+$coal-nomads = #c9c3a4
+$grime-nomads = #411f08
+$mine-nomads = #f9d79f
+
+a
+	color $gold-nomads
+	font-weight bold
+	&:hover
+		color $gold-nomads
+		text-decoration none
+
+#fp-nav ul li a span, .fp-slidesNav ul li a span
+	background $gold-nomads !important
+	
+#fp-nav ul li .fp-tooltip
+	color $gold-nomads
+	font-family 'Raleway'
+	text-transform uppercase
+	letter-spacing 2px
+	font-size 0.8em
+
+.btn
+	padding 15px 24px
+	margin-top 30px
+	display inline-block
+	font-family raleway
+	font-weight light
+	text-transform uppercase
+	&.btn-nomads
+		color $gold-nomads
+		background-color rgba(191, 130, 4, 0.05)
+		letter-spacing 2px
+		border 1px solid $gold-nomads
+		transition 0.3s ease
+		&:hover
+			background-color rgba(191, 130, 4, 0.30)
+			transition 0.3s ease
+			text-decoration none
+		&:focus
+			text-decoration none
+	&.flat
+		background-color $gold-nomads
+		color $grime-nomads
+		&:hover
+			background-color $grime-nomads
+			color $coal-nomads
+			text-decoration none
+		&:focus
+			text-decoration none
+	&.quiet
+		padding 7px 15px
+	&.active
+		background-color $grime-nomads !important
+		color $coal-nomads
+
+.btn-close
+	color $gold-nomads
+	font-size 2rem
+	&:hover
+		text-decoration none
+		color $coal-nomads
+		
+
+.section
+	text-align center
+	overflow hidden
+
+.overlaypattern
+	float left
+	position absolute
+	background-color rgba(0, 0, 0, .40)
+	background-image url('overlays/03.png')
+	width 100%
+	height 100%
+	top 0
+	bottom 0 
+	right 0
+	left 0
+	z-index 4
+	transition 0.3s ease
+	
+#videohome
+	float left
+	position absolute
+	right  0
+	bottom  0
+	top 0
+	right 0
+	width 100%
+	height 100%
+	background-size 100% 100%
+	background-color black
+	background-position center center
+	background-size contain
+	object-fit cover
+	z-index 3
+		
+#section0
+	overflow: hidden;
+	.layer
+		position: absolute;
+		z-index: 4;
+		width: 100%;
+		left: 0;
+		top: 35%;
+		img
+			max-width 80vw
+
+
+#section1
+	color white
+	.homenu
+		background-image url('../img/menuback.jpg')
+		background-size cover
+		text-align left
+		h2
+			font-size 4em
+			font-weight 600
+			color $gold-nomads
+			line-height 0.8em
+		p
+			color $mine-nomads
+			font-family: 'Lusitana', serif;
+			font-size 2em
+			margin-top 12px
+			line-height 1em
+	.menudisplay
+		background-size cover
+		background-color #090707
+		text-align left
+		&.fondo01
+			background-image url('../img/menu01.jpg')
+			background-position center right
+		&.fondo02
+			background-image url('../img/menu02.jpg')
+			background-position center left
+		&.fondo03
+			background-image url('../img/menu03.jpg')
+			background-position center center
+		&.fondo04
+			background-image url('../img/menu04.jpg')
+			background-position center center
+			h3
+				letter-spacing 1px
+				font-weight 600
+				line-height 1.2em
+				color $gold-nomads
+			p
+				margin-bottom 17px
+		h2
+			font-size 1.2em
+			letter-spacing 1px
+			color $gold-nomads
+			font-weight 600
+			font-family: 'Lusitana', serif;
+		h3
+			font-size 2em
+			color $coal-nomads
+			font-weight light
+			letter-spacing 2px
+			margin 0 0 25px
+		p
+			color $coal-nomads
+			margin-bottom 10px
+			font-size 1em
+		
+
+
+#section2
+	background-color black
+	background-image url('../img/reserve.jpg')
+	background-size cover
+	background-position left
+	h2
+		font-size 6rem
+		line-height 0.9
+		font-weight 600
+		color $gold-nomads
+		line-height 0.5em
+		margin-bottom 15px
+		i
+			vertical-align middle
+			margin-right 9px
+	p
+		color $coal-nomads
+		font-size 14px
+		line-height 1.7em
+		padding 15px 40px
+	
+
+#section3
+	/* fluid 5 columns */
+	.grid-sizer
+		width 25%
+	.grid-item
+		width 25%
+		float left
+		opacity 0.6
+		transition 0.2s all
+		img
+			width 100%
+		&:hover
+			opacity 1
+			transition 0.2s all
+
+.fluidbox__overlay
+	background rgba(0, 0, 0, .80) !important
+
+#section5
+	background-color white
+	background-image url('../img/contact.jpg')
+	background-size cover

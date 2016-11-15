@@ -1,0 +1,188 @@
+
+
+nav
+	position fixed
+	left 30px
+	top 25px
+	z-index 99
+	.menuhit
+		svg
+			fill transparent
+		i
+			font-size 4rem
+			padding 7px 20px
+			float left
+			color transparent
+		&.show-1
+			opacity 0
+		&.show-2
+			opacity 1
+			svg
+				fill #c9c3a4
+			i
+				color #c9c3a4
+		&.show-3
+			opacity 1
+			svg
+				fill #bf8204
+			i
+				color #bf8204
+		&.show-4
+			opacity 1
+			svg
+				fill #411f08
+			i
+				color #411f08
+		&.show-5
+			opacity 1
+			svg
+				fill #411f08
+			i
+				color #411f08
+			
+
+			
+
+#menu-home
+	letter-spacing 1px
+	font-weight bold
+	font-size 0.9em
+	display flex
+	justify-content center
+	align-content center
+	text-transform uppercase
+	width 100%
+	position absolute
+	top 20px
+	z-index 20
+	li
+		margin auto
+		text-align center
+		list-style outside none none
+		margin 0.5em 0.6em
+		padding 12px 15px
+		position relative
+		a
+			color #f9d79f 
+			text-decoration none
+		&:hover
+			color #bf8204
+		&:before
+			top 0
+			left 0
+		&:after
+			bottom 0
+			right 0
+
+	&.menucolor-2
+		li > a
+			color white !important
+	&.menucolor-3
+		li > a
+			color #201d21 !important
+
+
+.menu-home li:before,
+.menu-home li:after
+	-webkit-transition all 0.35s ease
+	transition all 0.35s ease
+	height 1px
+	width 35%
+	background-color #bf8204
+	position absolute
+	content ''
+	opacity 0
+
+.menu-home li:hover:before,
+.menu-home li.hover:before,
+.menu-home li:hover:after,
+.menu-home li.hover:after
+	opacity 1
+
+.menu-home li:hover:before,
+.menu-home li.hover:before
+	left 65%
+
+.menu-home li:hover:after,
+.menu-home li.hover:after
+	right 65%
+	
+
+
+.overlay
+	position fixed
+	width 100%
+	height 100%
+	top 0
+	left 0
+	background rgba(191, 130, 4, 0.95)
+	.overlay-close
+		width 80px
+		height 80px
+		position absolute
+		right 20px
+		top 20px
+		overflow hidden
+		border none
+		background url(../img/cross.svg) no-repeat center center
+		text-indent 200%
+		color transparent
+		outline none
+		z-index 100
+	nav
+		text-align center
+		position relative
+		top 50%
+		height 60%
+		-webkit-transform translateY(-50%)
+		transform translateY(-50%)
+	ul
+		list-style none
+		padding 0
+		margin 0 auto
+		display inline-block
+		height 100%
+		position relative
+		li
+			display block
+			height 20%
+			height calc(100% / 5)
+			min-height 54px
+			-webkit-backface-visibility hidden
+			backface-visibility hidden
+			a
+				font-size 54px
+				font-weight 300
+				display block
+				color #fff
+				-webkit-transition color 0.2s
+				transition color 0.2s
+
+.overlay ul li a:hover,
+.overlay ul li a:focus
+	color #f0f0f0
+
+.overlay-scale
+	visibility hidden
+	opacity 0
+	-webkit-transform scale(0.9)
+	transform scale(0.9)
+	-webkit-transition -webkit-transform 0.2s, opacity 0.2s, visibility 0s 0.2s
+	transition transform 0.2s, opacity 0.2s, visibility 0s 0.2s
+	&.open
+		visibility visible
+		opacity 1
+		-webkit-transform scale(1)
+		transform scale(1)
+		-webkit-transition -webkit-transform 0.4s, opacity 0.4s
+		transition transform 0.4s, opacity 0.4s
+
+@media screen and (max-height: 30.5em)
+	.overlay
+		nav
+			height 70%
+			font-size 34px
+		ul
+			li
+				min-height 34px
+
