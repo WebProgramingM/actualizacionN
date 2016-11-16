@@ -59,4 +59,5 @@ gulp.task('default', ['browser-sync'], function(){
   gulp.watch("src/scripts/**/*.js", ['scripts']);
   gulp.watch("*.html", ['bs-reload']);
   gulp.watch("js/*.js", ['bs-reload']);
+  gulp.watch("*.json", ['bs-reload']);
 });

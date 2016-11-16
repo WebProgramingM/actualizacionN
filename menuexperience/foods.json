@@ -6,12 +6,11 @@
       "descripcion": "Atún servido en piel de berenjena sobre una cama de espárragos a la plancha, reducción de oporto y tomates cherry al ajillo. Clasico Catalán",
       "longDescripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur distinctio dolor dolore ea esse inventore ipsam iste iure libero neque nulla officiis, provident quaerat repudiandae sint tempora unde. Eos.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur distinctio dolor dolore ea esse inventore ipsam iste iure libero neque nulla officiis, provident quaerat repudiandae sint tempora unde. Eos.",
       "foto": "http://placehold.it/150x150",
-      "banner": "http://placehold.it/350x150",
-      "bebidas": {
-        "bebida": "Bebida Generica"
-      },
-      "tags": ["tag2","tag3","tag3","tag3","tag3"],
-      "precio": "$170"
+      "banner": ["http://placehold.it/1366x768","http://placehold.it/1366x768","http://placehold.it/1366x768"],
+      "bebidas": ["bebida1","bebida1","bebida1"],
+      "tags": ["<div class='icon-nomads icon-vegetarian-mark'></div>","<div class='icon-nomads icon-heart'></div>","<div class='icon-nomads icon-flame'></div>"],
+      "precio": "$170",
+      "rate": "3.5"
     }
   },
     {
@@ -20,13 +19,14 @@
         "descripcion": "Bola de arroz rellena de salsa bolognesa y mozarella fresca, servida con una salsa de pimiento rojo, tipíco de Sicilia.",
         "longDescripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur distinctio dolor dolore ea esse inventore ipsam iste iure libero neque nulla officiis, provident quaerat repudiandae sint tempora unde. Eos.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur distinctio dolor dolore ea esse inventore ipsam iste iure libero neque nulla officiis, provident quaerat repudiandae sint tempora unde. Eos.",
         "foto": "http://placehold.it/150x150",
-        "banner": "http://placehold.it/350x150",
-        "bebidas": {
-          "bebida": "Bebida Generica"
-        },
-        "tags": ["tag2","tag3","tag3","tag3","tag3"],
+        "banner": ["http://placehold.it/1366x768","http://placehold.it/1366x768","http://placehold.it/1366x768"],
+        "bebidas": ["bebida1","bebida1","bebida1"],
 
-        "precio": "$80"
+        "tags": ["<div class='icon-nomads icon-vegetarian-mark'></div>","<div class='icon-nomads icon-heart'></div>","<div class='icon-nomads icon-flame'></div>"],
+
+        "precio": "$80",
+        "rate": "3.5"
+
       }
     },
     {
@@ -35,13 +35,14 @@
         "descripcion": "Cortado al momento, marinado en salsa de soya, champiñon y cebolla morada.",
         "longDescripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur distinctio dolor dolore ea esse inventore ipsam iste iure libero neque nulla officiis, provident quaerat repudiandae sint tempora unde. Eos.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur distinctio dolor dolore ea esse inventore ipsam iste iure libero neque nulla officiis, provident quaerat repudiandae sint tempora unde. Eos.",
         "foto": "http://placehold.it/150x150",
-        "banner": "http://placehold.it/350x150",
-        "bebidas": {
-          "bebida": "Bebida Generica"
-        },
-        "tags": ["tag2","tag3","tag3","tag3","tag3"],
+        "banner": ["http://placehold.it/1366x768","http://placehold.it/1366x768","http://placehold.it/1366x768"],
+        "bebidas": ["bebida1","bebida1","bebida1"],
 
-        "precio": "$105"
+        "tags": ["<div class='icon-nomads icon-vegetarian-mark'></div>","<div class='icon-nomads icon-heart'></div>","<div class='icon-nomads icon-flame'></div>"],
+
+        "precio": "$105",
+        "rate": "3.5"
+
       }
 
     },
@@ -51,13 +52,14 @@
         "descripcion": "Cocinado de 73° por 12 horas en salsa de soya, vinagre de arroz y jengibre. Servido crujiente en una cama de arroz blanco, tipíco de Singapur.",
         "longDescripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur distinctio dolor dolore ea esse inventore ipsam iste iure libero neque nulla officiis, provident quaerat repudiandae sint tempora unde. Eos.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur distinctio dolor dolore ea esse inventore ipsam iste iure libero neque nulla officiis, provident quaerat repudiandae sint tempora unde. Eos.",
         "foto": "http://placehold.it/150x150",
-        "banner": "http://placehold.it/350x150",
-        "bebidas": {
-          "bebida": "Bebida Generica"
-        },
-        "tags": ["tag2","tag3","tag3","tag3","tag3"],
+        "banner": ["http://placehold.it/1366x768","http://placehold.it/1366x768","http://placehold.it/1366x768"],
+        "bebidas": ["bebida1","bebida1","bebida1"],
 
-        "precio": "$150"
+        "tags": ["<div class='icon-nomads icon-vegetarian-mark'></div>","<div class='icon-nomads icon-heart'></div>","<div class='icon-nomads icon-flame'></div>"],
+
+        "precio": "$150",
+        "rate": "3.5"
+
       }
     },
     {
@@ -66,13 +68,14 @@
         "descripcion": "Clasico de Bruxelles servido con una salsa de crema, vino blanco y apio.",
         "longDescripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur distinctio dolor dolore ea esse inventore ipsam iste iure libero neque nulla officiis, provident quaerat repudiandae sint tempora unde. Eos.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur distinctio dolor dolore ea esse inventore ipsam iste iure libero neque nulla officiis, provident quaerat repudiandae sint tempora unde. Eos.",
         "foto": "http://placehold.it/150x150",
-        "banner": "http://placehold.it/350x150",
-        "bebidas": {
-          "bebida": "Bebida Generica"
-        },
-        "tags": ["tag2","tag3","tag3","tag3","tag3"],
+        "banner": ["http://placehold.it/1366x768","http://placehold.it/1366x768","http://placehold.it/1366x768"],
+        "bebidas": ["bebida1","bebida1","bebida1"],
 
-        "precio": "$145"
+        "tags": ["<div class='icon-nomads icon-vegetarian-mark'></div>","<div class='icon-nomads icon-heart'></div>","<div class='icon-nomads icon-flame'></div>"],
+
+        "precio": "$145",
+        "rate": "3.5"
+
       }
 
     },
@@ -82,13 +85,14 @@
         "descripcion": "Glaseado de Miso y Sake, servido con crema de guinnes, tomatillo y acelga al vapor.",
         "longDescripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur distinctio dolor dolore ea esse inventore ipsam iste iure libero neque nulla officiis, provident quaerat repudiandae sint tempora unde. Eos.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur distinctio dolor dolore ea esse inventore ipsam iste iure libero neque nulla officiis, provident quaerat repudiandae sint tempora unde. Eos.",
         "foto": "http://placehold.it/150x150",
-        "banner": "http://placehold.it/350x150",
-        "bebidas": {
-          "bebida": "Bebida Generica"
-        },
-        "tags": ["tag2","tag3","tag3","tag3","tag3"],
+        "banner": ["http://placehold.it/1366x768","http://placehold.it/1366x768","http://placehold.it/1366x768"],
+        "bebidas": ["bebida1","bebida1","bebida1"],
 
-        "precio": "$170"
+        "tags": ["<div class='icon-nomads icon-vegetarian-mark'></div>","<div class='icon-nomads icon-heart'></div>","<div class='icon-nomads icon-flame'></div>"],
+
+        "precio": "$170",
+        "rate": "3.5"
+
       }
 
     },
@@ -98,13 +102,14 @@
         "descripcion": "Rack de cordero cocinado a 62°C en costra de mostaza y cebollin, servido con papas cambray y tomillo.",
         "longDescripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur distinctio dolor dolore ea esse inventore ipsam iste iure libero neque nulla officiis, provident quaerat repudiandae sint tempora unde. Eos.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur distinctio dolor dolore ea esse inventore ipsam iste iure libero neque nulla officiis, provident quaerat repudiandae sint tempora unde. Eos.",
         "foto": "http://placehold.it/150x150",
-        "banner": "http://placehold.it/350x150",
-        "bebidas": {
-          "bebida": "Bebida Generica"
-        },
-        "tags": ["tag2","tag3","tag3","tag3","tag3"],
+        "banner": ["http://placehold.it/1366x768","http://placehold.it/1366x768","http://placehold.it/1366x768"],
+        "bebidas": ["bebida1","bebida1","bebida1"],
 
-        "precio": "$295"
+        "tags": ["<div class='icon-nomads icon-vegetarian-mark'></div>","<div class='icon-nomads icon-heart'></div>","<div class='icon-nomads icon-flame'></div>"],
+
+        "precio": "$295",
+        "rate": "3.5"
+
       }
 
     },
@@ -114,13 +119,14 @@
         "descripcion": "Pato desmigado, acompañado de chiles toreados, cebolla asada, guacamole y tortillas de maiz",
         "longDescripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur distinctio dolor dolore ea esse inventore ipsam iste iure libero neque nulla officiis, provident quaerat repudiandae sint tempora unde. Eos.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur distinctio dolor dolore ea esse inventore ipsam iste iure libero neque nulla officiis, provident quaerat repudiandae sint tempora unde. Eos.",
         "foto": "http://placehold.it/150x150",
-        "banner": "http://placehold.it/350x150",
-        "bebidas": {
-          "bebida": "Bebida Generica"
-        },
-        "tags": ["tag2","tag3","tag3","tag3","tag3"],
+        "banner": ["http://placehold.it/1366x768","http://placehold.it/1366x768","http://placehold.it/1366x768"],
+        "bebidas": ["bebida1","bebida1","bebida1"],
 
-        "precio": "$170"
+        "tags": ["<div class='icon-nomads icon-vegetarian-mark'></div>","<div class='icon-nomads icon-heart'></div>","<div class='icon-nomads icon-flame'></div>"],
+
+        "precio": "$170",
+        "rate": 3.5
+
       }
     },
     {
@@ -129,13 +135,14 @@
         "descripcion": "Rib Eye a cocción media, servida con nopales, cebolletas y salsa sukiyaki.",
         "longDescripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur distinctio dolor dolore ea esse inventore ipsam iste iure libero neque nulla officiis, provident quaerat repudiandae sint tempora unde. Eos.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur distinctio dolor dolore ea esse inventore ipsam iste iure libero neque nulla officiis, provident quaerat repudiandae sint tempora unde. Eos.",
         "foto": "http://placehold.it/150x150",
-        "banner": "http://placehold.it/350x150",
-        "bebidas": {
-          "bebida": "Bebida Generica"
-        },
-        "tags": ["tag2","tag3","tag3","tag3","tag3"],
+        "banner": ["http://placehold.it/1366x768","http://placehold.it/1366x768","http://placehold.it/1366x768"],
+        "bebidas": ["bebida1","bebida1","bebida1"],
 
-        "precio": "$170"
+        "tags": ["<div class='icon-nomads icon-vegetarian-mark'></div>","<div class='icon-nomads icon-heart'></div>","<div class='icon-nomads icon-flame'></div>"],
+
+        "precio": "$170",
+        "rate": "2.5"
+
       }
     },
     {
@@ -144,13 +151,14 @@
         "descripcion": "Pannacota clásica de frutos rojos acompañados con reduccion de vinagre balsámico.",
         "longDescripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur distinctio dolor dolore ea esse inventore ipsam iste iure libero neque nulla officiis, provident quaerat repudiandae sint tempora unde. Eos.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur distinctio dolor dolore ea esse inventore ipsam iste iure libero neque nulla officiis, provident quaerat repudiandae sint tempora unde. Eos.",
         "foto": "http://placehold.it/150x150",
-        "banner": "http://placehold.it/350x150",
-        "bebidas": {
-          "bebida": "Bebida Generica"
-        },
-        "tags": ["tag2","tag3","tag3","tag3","tag3"],
+        "banner": ["http://placehold.it/1366x768","http://placehold.it/1366x768","http://placehold.it/1366x768"],
+        "bebidas": ["bebida1","bebida1","bebida1"],
 
-        "precio": "$80"
+        "tags": ["<div class='icon-nomads icon-vegetarian-mark'></div>","<div class='icon-nomads icon-heart'></div>","<div class='icon-nomads icon-flame'></div>"],
+
+        "precio": "$80",
+        "rate": "3.5"
+
       }
     },
     {
@@ -159,13 +167,13 @@
         "descripcion": "Tarta de piña en su almibar, helado de coco y piña colada.",
         "longDescripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur distinctio dolor dolore ea esse inventore ipsam iste iure libero neque nulla officiis, provident quaerat repudiandae sint tempora unde. Eos.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur distinctio dolor dolore ea esse inventore ipsam iste iure libero neque nulla officiis, provident quaerat repudiandae sint tempora unde. Eos.",
         "foto": "http://placehold.it/150x150",
-        "banner": "http://placehold.it/350x150",
-        "bebidas": {
-          "bebida": "Bebida Generica"
-        },
-        "tags": ["tag2","tag3","tag3","tag3","tag3"],
+        "banner": ["http://placehold.it/1366x768","http://placehold.it/1366x768","http://placehold.it/1366x768"],
+        "bebidas": ["bebida1","bebida1","bebida1"],
+        "tags": ["<div class='icon-nomads icon-vegetarian-mark'></div>","<div class='icon-nomads icon-heart'></div>","<div class='icon-nomads icon-flame'></div>"],
 
-        "precio": "$80"
+        "precio": "$80",
+        "rate": "3.5"
+
       }
     },
     {
@@ -174,13 +182,14 @@
         "descripcion": "Pan de elote con crema de rompope y palomitas caramelizadas.",
         "longDescripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur distinctio dolor dolore ea esse inventore ipsam iste iure libero neque nulla officiis, provident quaerat repudiandae sint tempora unde. Eos.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur consectetur distinctio dolor dolore ea esse inventore ipsam iste iure libero neque nulla officiis, provident quaerat repudiandae sint tempora unde. Eos.",
         "foto": "http://placehold.it/150x150",
-        "banner": "http://placehold.it/350x150",
-        "bebidas": {
-          "bebida": "Bebida Generica"
-        },
-        "tags": ["tag2","tag3","tag3","tag3","tag3"],
+        "banner": ["http://placehold.it/1366x768","http://placehold.it/1366x768","http://placehold.it/1366x768"],
+        "bebidas": ["bebida1","bebida1","bebida1"],
 
-        "precio": "$80"
+        "tags": ["<div class='icon-nomads icon-vegetarian-mark'></div>","<div class='icon-nomads icon-heart'></div>","<div class='icon-nomads icon-flame'></div>"],
+
+        "precio": "$80",
+        "rate": "3.5"
+
       }
 
     }
