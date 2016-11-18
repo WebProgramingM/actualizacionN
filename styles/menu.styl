@@ -1,44 +1,51 @@
 
 
-nav
+#menumain
 	position fixed
-	left 30px
-	top 25px
+	left 0
+	top 15px
 	z-index 99
+	+for_breakpoint(desktop)
+		left 20px
+		top 20px
 	.menuhit
 		svg
 			fill transparent
 		i
 			font-size 4rem
-			padding 7px 20px
+			padding 7px 10px
 			float left
-			color transparent
+			color $coal-nomads
 		&.show-1
-			opacity 0
+			svg
+				fill transparent
+			i
+				color $coal-nomads
 		&.show-2
-			opacity 1
 			svg
 				fill #c9c3a4
 			i
 				color #c9c3a4
 		&.show-3
-			opacity 1
 			svg
 				fill #bf8204
 			i
 				color #bf8204
 		&.show-4
-			opacity 1
 			svg
-				fill #411f08
+				fill #EE0D3D
 			i
-				color #411f08
+				color #EE0D3D
 		&.show-5
-			opacity 1
 			svg
-				fill #411f08
+				fill #D86E0F
 			i
-				color #411f08
+				color #D86E0F
+		&.show-6
+			svg
+				fill white
+			i
+				color white
 			
 
 			
@@ -115,10 +122,11 @@ nav
 	height 100%
 	top 0
 	left 0
-	background rgba(191, 130, 4, 0.95)
+	background: linear-gradient(359deg, rgba(0,0,0,0.9) 0%, rgba(0,0,0,0.8) 100%)
+	z-index 130
 	.overlay-close
-		width 80px
-		height 80px
+		width 50px
+		height 50px
 		position absolute
 		right 20px
 		top 20px
@@ -154,13 +162,13 @@ nav
 				font-size 54px
 				font-weight 300
 				display block
-				color #fff
+				color white
 				-webkit-transition color 0.2s
 				transition color 0.2s
-
-.overlay ul li a:hover,
-.overlay ul li a:focus
-	color #f0f0f0
+				font-family 'Lusitana'
+				&:hover,
+				&:focus
+					color $gold-nomads
 
 .overlay-scale
 	visibility hidden
