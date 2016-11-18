@@ -9,8 +9,8 @@
 	// $time = $_POST['time'];
 
 
-	$to = "oscar@socialastronauts.com";
-	$subject = "CONTACT MESSAGE FROM WEB";
+	$to = "contactoweb@nomadscancun.com";
+	$subject = "CONTACT MESSAGE FROM WEB - NOMADS CANCUN";
 
 	$msg = "Name: ".$name."\nEmail: ".$email."\nMessage: ".$message;
 	if (mail($to, $subject, $msg)) {

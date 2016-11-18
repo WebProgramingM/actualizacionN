@@ -1,6 +1,8 @@
 {% extends 'templates/main.twig' %}
 
 {% block extraStyles %}
+	<link rel="stylesheet" type="text/css" href="css/photoswipe.css" />
+	<link rel="stylesheet" type="text/css" href="css/default-skin/default-skin.css" />
 {% endblock %}
 
 {% block SiteContent %}
@@ -61,7 +63,7 @@
 					<div class="col-xs-12 col-sm-4">
 						<h2><i class="icon-reservetable"></i>&nbsp;RE<br>SER<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;VA</h2>
 						<p><b>¿Necesitas Ayuda?,</b> envíanos un correo a: <a href="mailto:reserva@nomadscancun.com">reserva@nomadscancun.com</a> |
-						Para <b>grupos y eventos especiales</b>, <a href="mailto:grupos@nomadscancun.com">Haz Click Aquí</a> | Tel: <a href="tel:">998 000 0000</a>
+						Para <b>grupos y eventos especiales</b>, <a href="mailto: gparra@nomadscancun.com">Haz Click Aquí</a> | Tel: <a href="tel:+5219988983192">(998) 898 3192</a>
 						</p>
 						<script type='text/javascript' src='//www.opentable.com.mx/widget/reservation/loader?rid=335830&domain=commx&type=standard&theme=standard&lang=en&overlay=false&iframe=true'></script>
 					</div>
@@ -71,15 +73,22 @@
 
 
 		<div class="section fp-auto-height" id="section3">
-			<div class="grid">
-				<div class="grid-sizer"></div>
-				{% for image in gallery %}
-					<div class="grid-item ">
-						<a href="{{ image }}" class="gal">
+			<div class="grid nomads_gallery" itemscope itemtype="http://schema.org/ImageGallery"> 
+{# 				<div class="grid-sizer"></div>
+ #}				{% for image in gallery %}
+					{# <div class="grid-item ">
+						<a href="{{ image }}" class="gal demo-gallery__img--main">
 							<img src="{{ image }}" alt="">
 						</a>
-					</div>
+					</div> #}
+				<figure class="grid-item" itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+					<a href="{{ image }}" itemprop="contentUrl" data-size="1024x768">
+						<img src="{{ image }}" itemprop="thumbnail" />
+					</a>
+					{# <figcaption itemprop="caption description">Image caption</figcaption> #}
+				</figure>
 				{% endfor %}
+
 			</div>
 		</div>
 
@@ -110,10 +119,10 @@
 						  <br>
 
 						  <p>Mi 
-						    <label for="your-message">Mensaje</label> es el siguiente;</p>
+						    <label for="message">Mensaje</label> es el siguiente;</p>
 
 						  <p>
-						    <textarea name="your-message" id="message" rows="5" placeholder="(Tu Mensaje Aquí)" class="expanding" required></textarea>
+						    <textarea name="message" id="message" rows="5" placeholder="(Tu Mensaje Aquí)" class="expanding" required></textarea>
 						  </p>
 						  <p>					  	
 						    <button type="submit">
@@ -135,4 +144,11 @@
 {% endblock %}
 
 {% block extraScripts %}
+	<script src="js/photoswipe.min.js"></script>
+	<script src="js/photoswipe-ui-default.min.js"></script> 
+	<script src="js/classie.js"></script>
+	<script src="js/modernizr.custom.js"></script>
+	<script src="js/main.js"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAX4V8ZT70JCVuPsgTCHxXt2FIclqgfyLk&callback=initMap"
+	async defer></script>
 {% endblock %}

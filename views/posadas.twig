@@ -1,0 +1,213 @@
+{% extends 'templates/main.twig' %}
+
+{% block extraStyles %}
+	<link href="https://fonts.googleapis.com/css?family=Raleway:900" rel="stylesheet">
+	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+{% endblock %}
+
+
+{% block SiteContent %}
+
+	<div id="fullpage">
+		<header class="section" id="posadaHome">
+			<a href="#Paquetes">
+				<img src="img/logo-posadas.png" alt="">
+			</a>
+			<br>
+			<a href="#Paquetes" class="btn btn-nomads">CHECA NUESTROS PAQUETES</a>
+
+		</header>
+		<div class="section" id="PaquetesPosadas">
+			<div class="slide" data-anchor="paquete1">
+				<div class="container">
+					<div class="row">
+							<div class="col-xs-12 col-sm-4">
+								<img src="img/comida1.png" class="img-responsive center-block" alt="">
+								<br>
+								<h2>
+									INCLUYE:
+								</h2>
+								<p>
+									<b>2</b> Platillos a Elegir del Siguiente <a href="#">Menú,</a> <br>
+									Postre especial de temporada cada 2 personas. <br>
+									<span>*(No incluye bebidas)</span>
+								</p>
+								<h3>$ 150 <span>MXN</span></h3>
+								<br>
+								<h2>Guacamole Fresco</h2>
+								<p>Guacamole tradicional acompañado de totopos.</p>
+
+								<h2>Elotes Asados</h2>
+								<p>Servidos con chile tajín y queso parmesano. </p>
+							</div>
+							<div class="col-xs-12 col-sm-4">
+								<h2>Aros de Calamar</h2>
+								<p>Calamar frito acompañado de salsa marinara.</p>
+								
+								<h2>Ensalada de Kale</h2>
+								<p>Col rizada servida con pasas, almendras, aceitunas negras, queso de cabra cenizo y aderezo de frutos rojos.</p>
+
+								<h2>Pad Thai</h2>
+								<p>Fideos servidos con tofu, huevo, cebolla morada, cebollín, cilantro, salsa de pescado y tamarindo, Con pollo o camarones.</p>
+
+								<h2>Curry de Pollo</h2>
+								<p>Estofado de pollo en leche de coco, curry y cúrcuma, típico de la India.</p>
+							</div>
+							<div class="col-xs-12 col-sm-4">
+								<h2>Risotto al Funghi</h2>
+								<p>Arroz “Carnaroli”, mezcla de setas y queso parmesano.</p>
+
+								<h2>Empanada de Rajas</h2>
+								<p>Horneada y rellena de rajas poblanas.</p>
+
+								<h2>Arancino Siciliano</h2>
+								<p>Bola de arroz rellena de salsa bolognesa y mozarella fresca, servida con una salsa de pimiento rojo, típico de Sicilia.</p>
+								
+								<h2>Ravioli Medialuna</h2>
+								<p>Ravioli rellenos de riccota, espinacas, servidos con una salsa de salmón y vodka.</p>
+
+								<a href="#Paquetes/paquete2" class="btn btn-nomads">PAQUETE 2 ></a>
+							</div>
+					</div>
+				</div>
+			</div>
+			
+
+			<div class="slide" data-anchor="paquete2">
+				<div class="container">
+					<div class="col-xs-12 col-sm-4 col-sm-offset-4">
+						<img src="img/comida2.png" class="img-responsive center-block" alt="">
+						<br>
+						<h2>
+							INCLUYE:
+						</h2>
+						<p>
+							<b>2</b> Platillos a Elegir del Siguiente 
+							<a href="#" id="opener">Menú,</a>
+							 <br>
+							Postre especial de temporada cada 2 personas. <br>
+							<span>*(No incluye bebidas)</span>
+						</p>
+						<h3>$ 250 <span>MXN</span></h3>
+					<a href="#Paquetes/paquete1" class="btn btn-nomads"> < PAQUETE 1</a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<div class="section" id="DrinksPosada">
+			<h2>tercero</h2>
+			
+		</div>
+		<div class="section" id="ContactoPosadas">
+			<h2>cuarto</h2>
+			
+		</div>
+	</div>
+{% endblock %}
+
+
+{% block extraScripts %}
+
+	<script>
+
+		(function() {
+		    var triggerBttn = document.getElementById('trigger-overlay'),
+		        overlay = document.querySelector('div.overlay'),
+		        closeBttn = overlay.querySelector('button.overlay-close');
+		    list = overlay.querySelector("nav").getElementsByTagName("li"),
+		        transEndEventNames = {
+		            'WebkitTransition': 'webkitTransitionEnd',
+		            'MozTransition': 'transitionend',
+		            'OTransition': 'oTransitionEnd',
+		            'msTransition': 'MSTransitionEnd',
+		            'transition': 'transitionend'
+		        },
+		        transEndEventName = transEndEventNames[Modernizr.prefixed('transition')],
+		        support = { transitions: Modernizr.csstransitions };
+
+		    function toggleOverlay() {
+		        if (classie.has(overlay, 'open')) {
+		            classie.remove(overlay, 'open');
+		            classie.add(overlay, 'close');
+		            var onEndTransitionFn = function(ev) {
+		                if (support.transitions) {
+		                    if (ev.propertyName !== 'visibility') return;
+		                    this.removeEventListener(transEndEventName, onEndTransitionFn);
+		                }
+		                classie.remove(overlay, 'close');
+		            };
+		            if (support.transitions) {
+		                overlay.addEventListener(transEndEventName, onEndTransitionFn);
+		            } else {
+		                onEndTransitionFn();
+		            }
+		        } else if (!classie.has(overlay, 'close')) {
+		            classie.add(overlay, 'open');
+		        }
+		    }
+		    triggerBttn.addEventListener('click', toggleOverlay);
+		    closeBttn.addEventListener('click', toggleOverlay);
+		    for (i = 0, len = list.length; i < len; i++) {
+		        list[i].addEventListener('click', toggleOverlay);
+		    }
+
+		})();
+
+	</script>
+	<script>
+		jQuery(document).ready(function($) {
+			$('#fullpage').fullpage({
+			    verticalCentered: true,
+			    continuousVertical: true,
+			    scrollingSpeed: 400,
+			    keyboardScrolling: true,
+			    slidesNavigation: true,
+				// autoScrolling: false,
+				fitToSection: true,
+			    animateAnchor: true,
+			    recordHistory: true,
+			    navigation: true,
+			    anchors: ['Inicio', 'Paquetes', 'Bebidas', 'Reserva'],
+			    controlArrows: false,
+			    slidesNavigation: false,
+			    resetSliders: true,
+			    responsiveHeight: 750,
+			    bigSectionsDestination: 'top',
+			    normalScrollElementTouchThreshold: 5,
+			    touchSensitivity: 15,
+			    onLeave: function(index, nextIndex, direction) {
+
+			        $('.menuhit').removeClass(function(index, css) {
+			            return (css.match(/(^|\s)show-\S+/g) || []).join(' ');
+			        });
+			        if (nextIndex == '1') {
+			            $('.menuhit').addClass('show-1');
+			        }
+			        if (nextIndex == '2') {
+			            $('.menuhit').addClass('show-2');
+			        }
+			        if (nextIndex == '3') {
+			            $('.menuhit').addClass('show-3');
+			        }
+			        if (nextIndex == '4') {
+			            $('.menuhit').addClass('show-4');
+			        }
+			        if (nextIndex == '5') {
+			            $('.menuhit').addClass('show-5');
+			        }
+			        if (nextIndex == '6') {
+			            $('.menuhit').addClass('show-6');
+			        }
+			        /*if(nextIndex == '2'){
+			            $('#eag-menu-total').addClass('open');
+			        } else {
+			            $('#eag-menu-total').removeClass('open');
+			        }*/
+
+			    }
+			});
+		});
+	</script>
+{% endblock %}

@@ -1,6 +1,6 @@
 body
 	font-family: 'Raleway', sans-serif;
-	background #201d21
+	background-color rgb(31, 28, 26)
 
 $gold-nomads = #bf8204
 $coal-nomads = #c9c3a4
@@ -171,21 +171,23 @@ a
 			p
 				margin-bottom 17px
 		h2
-			font-size 1.2em
+			font-size 1em
+			margin-bottom 5px
 			letter-spacing 1px
 			color $gold-nomads
 			font-weight 600
 			font-family: 'Lusitana', serif;
 		h3
-			font-size 2em
+			font-size 1.6em
 			color $coal-nomads
 			font-weight light
 			letter-spacing 2px
-			margin 0 0 25px
+			margin 0 0 15px
 		p
 			color $coal-nomads
 			margin-bottom 10px
-			font-size 1em
+			font-size 0.9em
+			letter-spacing 1px
 		
 
 
@@ -216,15 +218,18 @@ a
 
 #section3
 	/* fluid 5 columns */
-	.grid-sizer
-		width 25%
-		+for_breakpoint(mobile)
-			width 50%
+	// .grid-sizer
+	// 	width 25%
+	// 	+for_breakpoint(mobile)
+	// 		width 50%
 	.grid-item
-		width 25%
+		margin 0 !important
+		width 20%
 		float left
 		opacity 0.6
 		transition 0.2s all
+		+for_breakpoint(tablet)
+			width 33.33%
 		+for_breakpoint(mobile)
 			width 50%
 		img
@@ -232,8 +237,10 @@ a
 		&:hover
 			opacity 1
 			transition 0.2s all
-.fluidbox__overlay
-	background rgba(0, 0, 0, .80) !important
+			
+			
+// .fluidbox__overlay
+// 	background rgba(0, 0, 0, .80) !important
 
 
 #section4
