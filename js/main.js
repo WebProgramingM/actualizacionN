@@ -3,6 +3,7 @@ $(document).ready(function() {
         verticalCentered: true,
         keyboardScrolling: true,
         animateAnchor: true,
+        // autoScrolling: false,
         recordHistory: true,
         navigation: true,
         navigationPosition: 'right',
