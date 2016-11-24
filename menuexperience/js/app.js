@@ -76,7 +76,8 @@ $$(document).on('click','.ks-generate-page', function() {
             '<div id="rate" style="float: right;"></div>'+
             '</div>'+
             '</div>'+
-            '<p>'+ plate.food.longDescripcion+'</p>' +
+            '<p>'+ plate.food.descripcion+'</p>' +
+            '<p class="t-long">'+ plate.food.longDescripcion+'</p>' +
                 '<div class="maridaje">'+
                 '<h2>Maridaje</h2>'+
                 '</div>'+
