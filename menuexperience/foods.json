@@ -2,7 +2,7 @@
   "foods":[
      {
       "food":{
-        "nombre": "Ensalada de Arugula, pera y parmesa.",
+        "nombre": "Ensalada de Arugula, pera y parmesano.",
         "descripcion": "Ensalada de arugula servida con pera, tomate cherry, vinage balsámico y parmesano.",
         "longDescripcion": "Ensalada de arugula servida con pera, tomate cherry, vinage balsámico y parmesano.",
         "foto": "../img/food/thumbatun-berenjena.jpg",
