@@ -85,7 +85,13 @@ $$(document).on('click','.ks-generate-page', function() {
             bebidas.join("")+
             '</ul>'+
             '</div>'+
-            '<a class="item-link item-content external " href="whatsapp://send?text=http://nomadscancun.com/" data-href="http://nomadscancun.com/" class="wa_btn wa_btn_s" >comparteme :v</a>'+
+            '<div class="popover popover-links">'+
+            '<div class="popover-angle"></div>'+
+            '<div class="popover-inner">'+
+                        '<a class="item-link item-content external " href="whatsapp://send?text=http://nomadscancun.com/menuexperience/" data-href="http://nomadscancun.com/" class="wa_btn wa_btn_s" >Whatsapp</a>'+
+
+            '</div>'+
+            '</div>'+
             '</div>'+
             '</div>' +
 
