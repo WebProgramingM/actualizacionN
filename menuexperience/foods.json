@@ -7,12 +7,12 @@
         "longDescripcion": "Ensalada de arúgula servida con pera, tomate cherry, vinágre balsámico y parmesano.",
         "foto": "../img/food/thumbatun-berenjena.jpg",
         "banner": ["../img/food/foodatun-berenjena.jpg"],
-        "bebidas": ["bebida1","bebida1","bebida1"],
+        "bebidas": ["Sauvignon Blanc (México)"],
 
-        "tags": ["<div class='icon-nomads icon-vegetarian-mark'></div>","<div class='icon-nomads icon-heart'></div>","<div class='icon-nomads icon-flame'></div>"],
+        "tags": ["<div class='icon-nomads icon-vegetarian-mark'></div>","<div class='icon-nomads icon-heart'></div>"],
 
         "precio": "$80",
-        "rate": "3.5"
+        "rate": "5"
 
       }
     },
@@ -20,44 +20,46 @@
       "food":{
         "nombre": "Ensalada de Kale.",
         "descripcion": "Col rizada servida con pasas, almendras, aceitunas negras, queso de cabra cenizo y aderezo de frutos rojos.",
-        "longDescripcion": "Col rizada servida con pasas, almendras, aceitunas negras, queso de cabra cenizo y aderezo de frutos rojos.",
+        "longDescripcion": "Opción creativa de ensalada con una mezcla entre frutos, quesos, frutos secos, frescos y abarrotes.",
         "foto": "../img/food/thumbatun-berenjena.jpg",
         "banner": ["../img/food/foodatun-berenjena.jpg"],
-        "bebidas": ["bebida1","bebida1","bebida1"],
+        "bebidas": ["Placido Pinot Grigio (Italia)"],
 
-        "tags": ["<div class='icon-nomads icon-vegetarian-mark'></div>","<div class='icon-nomads icon-heart'></div>","<div class='icon-nomads icon-flame'></div>"],
+        "tags": ["<div class='icon-nomads icon-vegetarian-mark'></div>","<div class='icon-nomads icon-heart'></div>"],
         "precio": "$80",
-        "rate": "3.5"
+        "rate": "5"
 
       }
     },
     {
       "food":{
         "nombre": "Arancino Siciliano",
-        "descripcion": "Bola de arroz rellena de salsa bolognesa y mozarella fresca, servida con una salsa de pimiento rojo, típico de Sicilia.",
-        "longDescripcion": "Bola de arroz rellena de salsa bolognesa y mozarella fresca, servida con una salsa de pimiento rojo, típico de Sicilia.",
+
+        "descripcion": "Bola de arroz rellena de salsa bolognesa y mozarella fresca, servida con una salsa de pimiento rojo, tipíco de Sicilia.",
+        "longDescripcion": "Otra manera de comer arroz, típico del sur de Italia, que mezcla sabor tradicional y contraste cromático.",
         "foto": "../img/food/thumbatun-berenjena.jpg",
         "banner": ["../img/food/foodatun-berenjena.jpg"],
-        "bebidas": ["bebida1","bebida1","bebida1"],
-        "tags": ["<div class='icon-nomads icon-vegetarian-mark'></div>","<div class='icon-nomads icon-heart'></div>","<div class='icon-nomads icon-flame'></div>"],
+        "bebidas": ["Punta Nogal Merlot (Chile)","Lindeman’s Shiraz (Australia)"],
+        "tags": [],
         "precio": "$80",
-        "rate": "3.5"
+        "rate": "5"
 
       }
     },
     {
       "food":{
         "nombre": "Pad Thai",
-        "descripcion": "ideos servidos con tofu, huevo, cebolla morada, cebollín, cilantro, salsa de pescado y tamarindo. ",
-        "longDescripcion": "ideos servidos con tofu, huevo, cebolla morada, cebollín, cilantro, salsa de pescado y tamarindo. ",
+
+        "descripcion": "Fideos servidos con tofu, huevo, cebolla morada, cebollin, cilantro, salsa de pescado y tamarindo.",
+        "longDescripcion": "Plato inspirado de los food court de Bangkok, tiene un balance entre dulce y salado con un aroma muy característico, pero de exquisito sabor.",
         "foto": "../img/food/thumbatun-berenjena.jpg",
         "banner": ["../img/food/foodatun-berenjena.jpg"],
-        "bebidas": ["bebida1","bebida1","bebida1"],
+        "bebidas": ["Golden Mule (Tequila)","Paloma Picante (Mezcal)"],
 
-        "tags": ["<div class='icon-nomads icon-vegetarian-mark'></div>","<div class='icon-nomads icon-heart'></div>","<div class='icon-nomads icon-flame'></div>"],
+        "tags": ["<div class='icon-nomads icon-vegetarian-mark'></div>"],
 
-        "precio": "$80",
-        "rate": "3.5"
+        "precio": "$95 - 105",
+        "rate": "5"
 
       }
     },
@@ -65,27 +67,28 @@
       "food":{
         "nombre": "Guacamole Fresco",
         "descripcion": "Guacamole tradicional acompañado de totopos.",
-        "longDescripcion": "Guacamole tradicional acompañado de totopos.",
+        "longDescripcion": "Exquisito platillo que no falta en las mesas de comida mexicana, con aguacate 100% fresco. ",
         "foto": "../img/food/thumbatun-berenjena.jpg",
         "banner": ["../img/food/foodatun-berenjena.jpg"],
-        "bebidas": ["bebida1","bebida1","bebida1"],
-        "tags": ["<div class='icon-nomads icon-vegetarian-mark'></div>","<div class='icon-nomads icon-heart'></div>","<div class='icon-nomads icon-flame'></div>"],
+        "bebidas": [],
+        "tags": ["<div class='icon-nomads icon-vegetarian-mark'></div>"],
         "precio": "$80",
-        "rate": "3.5"
+        "rate": "5"
 
       }
     },
      {
       "food":{
         "nombre": "Elotes Asados",
-        "descripcion": "Servidos con chile tajín y queso parmesano.",
-        "longDescripcion": "Servidos con chile tajín y queso parmesano.",
-        "foto": "../img/food/thumbatun-berenjena.jpg",
-        "banner": ["../img/food/foodatun-berenjena.jpg"],
-        "bebidas": ["bebida1","bebida1","bebida1"],
-        "tags": ["<div class='icon-nomads icon-vegetarian-mark'></div>","<div class='icon-nomads icon-heart'></div>","<div class='icon-nomads icon-flame'></div>"],
+
+        "descripcion": "Servidos con chile tajin y queso parmesano.",
+        "longDescripcion": "Del maíz típico mexicano, una deliciosa entrada sazonados con chile en polvo tajín",
+        "foto": "../img/food/thumbelote.jpg",
+        "banner": ["../img/food/foodelote.jpg"],
+        "bebidas": ["Refresco de Cola"],
+        "tags": ["<div class='icon-nomads icon-vegetarian-mark'></div>","<div class='icon-nomads icon-heart'></div>"],
         "precio": "$40",
-        "rate": "3.5"
+        "rate": "5"
 
       }
     },
@@ -93,27 +96,29 @@
       "food":{
         "nombre": "Aros de Calamar",
         "descripcion": "Calamar frito acompañado de salsa marinara.",
-        "longDescripcion": "Calamar frito acompañado de salsa marinara.",
+        "longDescripcion": "",
         "foto": "../img/food/thumbatun-berenjena.jpg",
         "banner": ["../img/food/foodatun-berenjena.jpg"],
-        "bebidas": ["bebida1","bebida1","bebida1"],
-        "tags": ["<div class='icon-nomads icon-vegetarian-mark'></div>","<div class='icon-nomads icon-heart'></div>","<div class='icon-nomads icon-flame'></div>"],
+        "bebidas": [],
+        "tags": [],
         "precio": "$95",
-        "rate": "3.5"
+        "rate": "5"
 
       }
     },
     {
       "food":{
         "nombre": "Curry de Pollo",
-        "descripcion": "Estofado de pollo en leche de coco, curry y cúrcuma, típico de la India.",
-        "longDescripcion": "Estofado de pollo en leche de coco, curry y cúrcuma, típico de la India.",
+
+        "descripcion": "Estofado de pollo en leche de coco, curry y curcuma, tipico de la India.",
+        "longDescripcion": "Receta clásica de la india con el exquisito aroma de la cúrcuma, servido con arroz y con guarnición de jalapeños, chile serrano fresco; deshidratado en cocina.",
+
         "foto": "../img/food/thumbatun-berenjena.jpg",
         "banner": ["../img/food/foodatun-berenjena.jpg"],
-        "bebidas": ["bebida1","bebida1","bebida1"],
-        "tags": ["<div class='icon-nomads icon-vegetarian-mark'></div>","<div class='icon-nomads icon-heart'></div>","<div class='icon-nomads icon-flame'></div>"],
+        "bebidas": ["Old Cuban (Ron)"],
+        "tags": ["<div class='icon-nomads icon-heart'></div>"],
         "precio": "$145",
-        "rate": "3.5"
+        "rate": "5"
 
       }
     },
@@ -121,67 +126,69 @@
       "food":{
         "nombre": "Tacos Veganos",
         "descripcion": "Preparados con hojas de radicchio, estofado de coliflor y chorizo de soya.",
-        "longDescripcion": "Preparados con hojas de radicchio, estofado de coliflor y chorizo de soya.",
+        "longDescripcion": "Locura del chef y un excelente plato para vegetarianos preparado con lechuga italiana algo amarga y un estofado de coliflor con alcaparra, terminado con un chorizo de soya y un brote de arúgula. ",
         "foto": "../img/food/thumbatun-berenjena.jpg",
         "banner": ["../img/food/foodatun-berenjena.jpg"],
-        "bebidas": ["bebida1","bebida1","bebida1"],
-        "tags": ["<div class='icon-nomads icon-vegetarian-mark'></div>","<div class='icon-nomads icon-heart'></div>","<div class='icon-nomads icon-flame'></div>"],
+        "bebidas": ["Pura Vida (Vodka)","Jugo de Naranja Mineral"],
+        "tags": ["<div class='icon-nomads icon-vegetarian-mark'></div>"],
         "precio": "$80",
-        "rate": "3.5"
+        "rate": "5"
       }
     },
       {
       "food":{
         "nombre": "Tartaras de Atun",
-        "descripcion": "Cortado al momento, marinado en salsa de soya, champiñón y cebolla morada.",
-        "longDescripcion": "Cortado al momento, marinado en salsa de soya, champiñón y cebolla morada.",
+
+        "descripcion": "Cortado al momento, marinado en salsa de soya, champiñon y cebolla morada.",
+        "longDescripcion": "Uno de los platillos más vendidos de nuestro menú, sabores orientales con soya, aceite de ajonjolí y chicharrón de camarón.",
+
         "foto": "../img/food/thumbatun-berenjena.jpg",
         "banner": ["../img/food/foodatun-berenjena.jpg"],
-        "bebidas": ["bebida1","bebida1","bebida1"],
-        "tags": ["<div class='icon-nomads icon-vegetarian-mark'></div>","<div class='icon-nomads icon-heart'></div>","<div class='icon-nomads icon-flame'></div>"],
+        "bebidas": ["Alamos Chardonay (Argentina)"],
+        "tags": ["<div class='icon-nomads icon-heart'></div>"],
         "precio": "$105",
-        "rate": "3.5"
+        "rate": "5"
       }
     },
       {
       "food":{
         "nombre": "Empanadas de Rajas",
         "descripcion": "Horneada y rellena de rajas poblanas.",
-        "longDescripcion": "Horneada y rellena de rajas poblanas.",
+        "longDescripcion": "Una combinación entre una empanada tradicional argentina y el auténtico sabor mexicano de rajas poblanas.",
         "foto": "../img/food/thumbatun-berenjena.jpg",
         "banner": ["../img/food/foodatun-berenjena.jpg"],
-        "bebidas": ["bebida1","bebida1","bebida1"],
-        "tags": ["<div class='icon-nomads icon-vegetarian-mark'></div>","<div class='icon-nomads icon-heart'></div>","<div class='icon-nomads icon-flame'></div>"],
+        "bebidas": ["Golden Mule (Tequila)","Vaqueri Tikki (Whiskey)"],
+        "tags": ["<div class='icon-nomads icon-vegetarian-mark'></div>"],
         "precio": "$40",
-        "rate": "3.5"
+        "rate": "5"
       }
     },
     {
       "food":{
         "nombre": "Ravioli Medialuna",
         "descripcion": "Ravioli rellenos de riccota, espinacas, servidos con una salsa de salmon y vodka.",
-        "longDescripcion": "Ravioli rellenos de riccota, espinacas, servidos con una salsa de salmon y vodka.",
+        "longDescripcion": "Pasta rellena clásica de la región Emilia Romagna que es famosa por su pasta rellena. se prepara con un flameo de vodka para reducir la nota grasosa del salmón.",
         "foto": "../img/food/thumbatun-berenjena.jpg",
         "banner": ["../img/food/foodatun-berenjena.jpg"],
-        "bebidas": ["bebida1","bebida1","bebida1"],
-        "tags": ["<div class='icon-nomads icon-vegetarian-mark'></div>","<div class='icon-nomads icon-heart'></div>","<div class='icon-nomads icon-flame'></div>"],
+        "bebidas": [],
+        "tags": [],
         "precio": "$130",
-        "rate": "3.5"
+        "rate": "5"
       }
     },
     {
       "food":{
         "nombre": "Pork Belly",
         "descripcion": "Cocinado de 73° por 12 horas en salsa de soya, vinagre de arroz y jengibre. Servido crujiente en una cama de arroz blanco, tipíco de Singapur.",
-        "longDescripcion": "Cocinado de 73° por 12 horas en salsa de soya, vinagre de arroz y jengibre. Servido crujiente en una cama de arroz blanco, tipíco de Singapur.",
+        "longDescripcion": "Inspirado en el Food Court de Singapur, una combinación entre comida china y malaya.",
         "foto": "../img/food/thumbporkbelly.jpg",
         "banner": ["../img/food/foodporkbelly.jpg"],
-        "bebidas": ["bebida1","bebida1","bebida1"],
+        "bebidas": ["Market 23 (Ron)"],
 
-        "tags": ["<div class='icon-nomads icon-vegetarian-mark'></div>","<div class='icon-nomads icon-heart'></div>","<div class='icon-nomads icon-flame'></div>"],
+        "tags": ["<div class='icon-nomads icon-heart'></div>"],
 
         "precio": "$150",
-        "rate": "3.5"
+        "rate": "5"
 
       }
     },
@@ -189,15 +196,15 @@
       "food":{
         "nombre": "Mejillones Estilo Belga",
         "descripcion": "Clasico de Bruxelles servido con una salsa de crema, vino blanco y apio.",
-        "longDescripcion": "Clasico de Bruxelles servido con una salsa de crema, vino blanco y apio.",
+        "longDescripcion": "Es una opción más consistente para comer los moluscos, hecho a la costumbre del Norte de Europa. ",
         "foto": "../img/food/thumbmejillones.jpg",
         "banner": ["../img/food/foodmejillones.jpg"],
-        "bebidas": ["bebida1","bebida1","bebida1"],
+        "bebidas": ["Alamos Chardonay (Argentina)","Casa Madero 3V (Mexico)","Beringer White Zinfadel (Estados Unidos)"],
 
-        "tags": ["<div class='icon-nomads icon-vegetarian-mark'></div>","<div class='icon-nomads icon-heart'></div>","<div class='icon-nomads icon-flame'></div>"],
+        "tags": ["<div class='icon-nomads icon-heart'></div>"],
 
         "precio": "$145",
-        "rate": "3.5"
+        "rate": "5"
 
       }
 
@@ -206,52 +213,52 @@
       "food":{
         "nombre": "Rissoto al Funghi",
         "descripcion": "Arroz 'Carnaroli', mezcla de setas y queso parmesano.",
-        "longDescripcion": "Arroz 'Carnaroli', mezcla de setas y queso parmesano.",
+        "longDescripcion": "El Clásico Rissoto al puro estilo del norte de Italia. si este platillo no le gusta, puede mandar a saludar a nuestro chef ITALIANO. ",
         "foto": "../img/food/thumbatun-berenjena.jpg",
         "banner": ["../img/food/foodatun-berenjena.jpg"],
-        "bebidas": ["bebida1","bebida1","bebida1"],
-        "tags": ["<div class='icon-nomads icon-vegetarian-mark'></div>","<div class='icon-nomads icon-heart'></div>","<div class='icon-nomads icon-flame'></div>"],
+        "bebidas": ["Casa Madero 3V (Mexico)"],
+        "tags": ["<div class='icon-nomads icon-vegetarian-mark'></div>","<div class='icon-nomads icon-heart'></div>"],
         "precio": "$125",
-        "rate": "3.5"
+        "rate": "5"
       }
     },
     {
       "food":{
         "nombre": "Espaldilla de Res",
         "descripcion": "Glaseado con miso y sake, servido en crema de guinness, tomatillo y acelga al vapor.",
-        "longDescripcion": "Glaseado con miso y sake, servido en crema de guinness, tomatillo y acelga al vapor.",
+        "longDescripcion": "Un platillo con sabores orientales y servido con una crema; mezcla de sabor ácido del tomatillo y amargo de la cerveza Guinness. Es un plato con un balance de sabores articulados desde el dulce, amargo, ácido, fresco, picante.",
         "foto": "../img/food/thumbatun-berenjena.jpg",
         "banner": ["../img/food/foodatun-berenjena.jpg"],
-        "bebidas": ["bebida1","bebida1","bebida1"],
-        "tags": ["<div class='icon-nomads icon-vegetarian-mark'></div>","<div class='icon-nomads icon-heart'></div>","<div class='icon-nomads icon-flame'></div>"],
+        "bebidas": [],
+        "tags": [],
         "precio": "$160",
-        "rate": "3.5"
+        "rate": "5"
       }
     },
         {
       "food":{
         "nombre": "Atun Sellado en Berenjena",
         "descripcion": "Atun servido en piel de berenjena sobre una cama de esparragos a la plancha, reduccion de oporto y tomates cherry al ajillo; clasico de catalan.",
-        "longDescripcion": "Atun servido en piel de berenjena sobre una cama de esparragos a la plancha, reduccion de oporto y tomates cherry al ajillo; clasico de catalan.",
+        "longDescripcion": "Este platillo hace honor a los sabores en la boquería de barcelona.",
         "foto": "../img/food/thumbatun-berenjena.jpg",
         "banner": ["../img/food/foodatun-berenjena.jpg"],
-        "bebidas": ["bebida1","bebida1","bebida1"],
-        "tags": ["<div class='icon-nomads icon-vegetarian-mark'></div>","<div class='icon-nomads icon-heart'></div>","<div class='icon-nomads icon-flame'></div>"],
+        "bebidas": ["Alamos Chardonay (Argentina)"],
+        "tags": [],
         "precio": "$170",
-        "rate": "3.5"
+        "rate": "5"
       }
     },
     {
       "food":{
         "nombre": "Jerk Salmón",
         "descripcion": "Salmón marinado con mezcla de especias jamaiquinas, servido con cebolla confitada por 4 horas, papas al comino y espinaca fresca.",
-        "longDescripcion": "Salmón marinado con mezcla de especias jamaiquinas, servido con cebolla confitada por 4 horas, papas al comino y espinaca fresca.",
+        "longDescripcion": "Tomamos lo mejor de esta mezcla de sabores jamaiquinos y ups! lo dejamos caer en la carne de salmón, logrando así un exquisito platillo acompañado de cebolla caramelizada y papas al comino.",
         "foto": "../img/food/thumbatun-berenjena.jpg",
         "banner": ["../img/food/foodatun-berenjena.jpg"],
-        "bebidas": ["bebida1","bebida1","bebida1"],
-        "tags": ["<div class='icon-nomads icon-vegetarian-mark'></div>","<div class='icon-nomads icon-heart'></div>","<div class='icon-nomads icon-flame'></div>"],
+        "bebidas": [],
+        "tags": ["<div class='icon-nomads icon-heart'></div>"],
         "precio": "$170",
-        "rate": "3.5"
+        "rate": "5"
       }
     },
 
@@ -259,15 +266,15 @@
       "food":{
         "nombre": "Costilla de Cordero",
         "descripcion": "Rack de cordero cocinado a 62°C en costra de mostaza y cebollin, servido con papas cambray y tomillo.",
-        "longDescripcion": "Rack de cordero cocinado a 62°C en costra de mostaza y cebollin, servido con papas cambray y tomillo.",
+        "longDescripcion": "Esta es una receta en honor al Chef Inglés Marco Pierre White.",
         "foto": "../img/food/thumbcordero.jpg",
         "banner": ["../img/food/foodcordero.jpg"],
-        "bebidas": ["bebida1","bebida1","bebida1"],
+        "bebidas": [],
 
-        "tags": ["<div class='icon-nomads icon-vegetarian-mark'></div>","<div class='icon-nomads icon-heart'></div>","<div class='icon-nomads icon-flame'></div>"],
+        "tags": [],
 
         "precio": "$295",
-        "rate": "3.5"
+        "rate": "5"
 
       }
 
@@ -276,26 +283,26 @@
       "food":{
         "nombre": "Rib Eye",
         "descripcion": "Corte estilo Rib Eye cocinado a 62°C servido con crema de huitlacoche y mini elotes en escabeche.",
-        "longDescripcion": "Corte estilo Rib Eye cocinado a 62°C servido con crema de huitlacoche y mini elotes en escabeche.",
-        "foto": "../img/food/thumbatun-berenjena.jpg",
-        "banner": ["../img/food/foodatun-berenjena.jpg"],
-        "bebidas": ["bebida1","bebida1","bebida1"],
-        "tags": ["<div class='icon-nomads icon-vegetarian-mark'></div>","<div class='icon-nomads icon-heart'></div>","<div class='icon-nomads icon-flame'></div>"],
+        "longDescripcion": "Jugando con los sabores mexicanos, el chef elaboró un platillo balanceado entre tonos ácidos y el peculiar sabor del huitlacoche.",
+        "foto": "../img/food/thumbribeye.jpg",
+        "banner": ["../img/food/foodribeye.jpg"],
+        "bebidas": ["Alamos Malbec  (Argentina)","Casa Madero 3V (Mexico)","Casa Madero Cabernet Sauvignon (Mexico)"],
+        "tags": ["<div class='icon-nomads icon-heart'></div>"],
         "precio": "$280",
-        "rate": "3.5"
+        "rate": "5"
       }
     },
      {
       "food":{
         "nombre": "Carnitas de Pato",
         "descripcion": "Pato desmigado, acompañado de chiles toreados, cebolla asada, guacamole y tortillas de maiz.",
-        "longDescripcion": "Pato desmigado, acompañado de chiles toreados, cebolla asada, guacamole y tortillas de maiz.",
+        "longDescripcion": "Es un pato cocinado estilo francés (con vino blanco, cítricos y pimienta rosa)  Servido desmigado estilo mexicano, un exquisito platillo insignia de nuestro restaurante que no te puedes perder.",
         "foto": "../img/food/thumbatun-berenjena.jpg",
         "banner": ["../img/food/foodatun-berenjena.jpg"],
-        "bebidas": ["bebida1","bebida1","bebida1"],
-        "tags": ["<div class='icon-nomads icon-vegetarian-mark'></div>","<div class='icon-nomads icon-heart'></div>","<div class='icon-nomads icon-flame'></div>"],
+        "bebidas": ["Shot de Salsa Habanero","Punta Nogal Merlot","Tamerind Whiskey Sour (Whiskey)"],
+        "tags": ["<div class='icon-nomads icon-heart'></div>"],
         "precio": "$170",
-        "rate": "3.5"
+        "rate": "5"
       }
     },
 
@@ -303,15 +310,15 @@
       "food":{
         "nombre": "Rib Eye Estilo Japones",
         "descripcion": "Rib Eye a cocción media, servida con nopales, cebolletas y salsa sukiyaki.",
-        "longDescripcion": "Rib Eye a cocción media, servida con nopales, cebolletas y salsa sukiyaki.",
-        "foto": "../img/food/thumbribeye.jpg",
-        "banner": ["../img/food/foodribeye.jpg"],
-        "bebidas": ["bebida1","bebida1","bebida1"],
+        "longDescripcion": "Jugoso Rib Eye Importado calidad prime cocinado como al maestro miyagi le gustaría.",
+        "foto": "../img/food/thumbatun-berenjena.jpg",
+        "banner": ["../img/food/foodatun-berenjena.jpg"],
+        "bebidas": ["Alamos Malbec (Argentina)"],
 
-        "tags": ["<div class='icon-nomads icon-vegetarian-mark'></div>","<div class='icon-nomads icon-heart'></div>","<div class='icon-nomads icon-flame'></div>"],
+        "tags": ["<div class='icon-nomads icon-heart'></div>"],
 
         "precio": "$170",
-        "rate": "2.5"
+        "rate": "5"
 
       }
     },
@@ -319,26 +326,26 @@
       "food":{
         "nombre": "Tiramisú Cristina",
         "descripcion": "Tiramisú suave, receta secreta de la mamá del chef.",
-        "longDescripcion": "Tiramisú suave, receta secreta de la mamá del chef.",
+        "longDescripcion": "",
         "foto": "../img/food/thumbatun-berenjena.jpg",
         "banner": ["../img/food/foodatun-berenjena.jpg"],
-        "bebidas": ["bebida1","bebida1","bebida1"],
-        "tags": ["<div class='icon-nomads icon-vegetarian-mark'></div>","<div class='icon-nomads icon-heart'></div>","<div class='icon-nomads icon-flame'></div>"],
+        "bebidas": [],
+        "tags": [],
         "precio": "$80",
-        "rate": "3.5"
+        "rate": "5"
       }
     },
          {
       "food":{
         "nombre": "Salami de Chocolate",
         "descripcion": "El chocolate crujiente en forma de salami, servido con queso crema y mermelada casera.",
-        "longDescripcion": "El chocolate crujiente en forma de salami, servido con queso crema y mermelada casera.",
+        "longDescripcion": "Una divertida forma de comer el chocolate.",
         "foto": "../img/food/thumbatun-berenjena.jpg",
         "banner": ["../img/food/foodatun-berenjena.jpg"],
-        "bebidas": ["bebida1","bebida1","bebida1"],
-        "tags": ["<div class='icon-nomads icon-vegetarian-mark'></div>","<div class='icon-nomads icon-heart'></div>","<div class='icon-nomads icon-flame'></div>"],
+        "bebidas": [],
+        "tags": [],
         "precio": "$80",
-        "rate": "3.5"
+        "rate": "5"
       }
     },
 
@@ -346,57 +353,57 @@
       "food":{
         "nombre": "Pannacotta de Frutos Rojos",
         "descripcion": "Pannacota clásica de frutos rojos acompañados con reduccion de vinagre balsámico.",
-        "longDescripcion": "Pannacota clásica de frutos rojos acompañados con reduccion de vinagre balsámico.",
+        "longDescripcion": "Es un postre más clásicos en Italia, el chef personalmente lo sirve con una gelatina de menta y reducción de vinagre hecho en la cocina.",
         "foto": "../img/food/thumbpannacota.jpg",
         "banner": ["../img/food/foodpannacota.jpg"],
-        "bebidas": ["bebida1","bebida1","bebida1"],
+        "bebidas": [],
 
-        "tags": ["<div class='icon-nomads icon-vegetarian-mark'></div>","<div class='icon-nomads icon-heart'></div>","<div class='icon-nomads icon-flame'></div>"],
+        "tags": [],
 
         "precio": "$80",
-        "rate": "3.5"
+        "rate": "5"
 
       }
     },
           {
       "food":{
         "nombre": "Sopa de Piña",
-        "descripcion": "Tartar de piña en su almibar, helado de coco y piña colada.",
-        "longDescripcion": "Tartar de piña en su almibar, helado de coco y piña colada.",
+        "descripcion": "Tarta de piña en su almibar, helado de coco y piña colada.",
+        "longDescripcion": "Es una piña colada hecha en postre, ¿así o más rico?",
         "foto": "../img/food/thumbatun-berenjena.jpg",
         "banner": ["../img/food/foodatun-berenjena.jpg"],
-        "bebidas": ["bebida1","bebida1","bebida1"],
-        "tags": ["<div class='icon-nomads icon-vegetarian-mark'></div>","<div class='icon-nomads icon-heart'></div>","<div class='icon-nomads icon-flame'></div>"],
+        "bebidas": [],
+        "tags": [],
         "precio": "$80",
-        "rate": "3.5"
+        "rate": "5"
       }
     },
     {
       "food":{
         "nombre": "Mousse de chocolate",
         "descripcion": "Mousse de chocolate.",
-        "longDescripcion": "Mousse de chocolate.",
+        "longDescripcion": "Servido en una copa es perfecto para los amantes del chocolate con el exquisito sabor del chocolate y los toques cítricos que harán una experiencia en el paladar inigualable.",
         "foto": "../img/food/thumbatun-berenjena.jpg",
         "banner": ["../img/food/foodatun-berenjena.jpg"],
-        "bebidas": ["bebida1","bebida1","bebida1"],
-        "tags": ["<div class='icon-nomads icon-vegetarian-mark'></div>","<div class='icon-nomads icon-heart'></div>","<div class='icon-nomads icon-flame'></div>"],
+        "bebidas": [],
+        "tags": [],
         "precio": "$85",
-        "rate": "3.5"
+        "rate": "5"
       }
     },
     {
       "food":{
         "nombre": "Pan de Elote",
         "descripcion": "Pan de elote con crema de rompope y palomitas caramelizadas.",
-        "longDescripcion": "Pan de elote con crema de rompope y palomitas caramelizadas.",
-        "foto": "../img/food/thumbelote.jpg",
-        "banner": ["../img/food/foodelote.jpg"],
-        "bebidas": ["bebida1","bebida1","bebida1"],
+        "longDescripcion": "Postre casero al tradicional estilo mexicano con un toque Cine.",
+        "foto": "../img/food/thumbatun-berenjena.jpg",
+        "banner": ["../img/food/foodatun-berenjena.jpg"],
+        "bebidas": [],
 
-        "tags": ["<div class='icon-nomads icon-vegetarian-mark'></div>","<div class='icon-nomads icon-heart'></div>","<div class='icon-nomads icon-flame'></div>"],
+        "tags": [],
 
         "precio": "$80",
-        "rate": "3.5"
+        "rate": "5"
 
       }
 
