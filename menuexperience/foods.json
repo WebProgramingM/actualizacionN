@@ -2,9 +2,9 @@
   "foods":[
      {
       "food":{
-        "nombre": "Ensalada de Arugula, pera y parmesano.",
-        "descripcion": "Ensalada de arugula servida con pera, tomate cherry, vinage balsámico y parmesano.",
-        "longDescripcion": "Ensalada de arugula servida con pera, tomate cherry, vinage balsámico y parmesano.",
+        "nombre": "Ensalada de Arúgula, pera y parmesano.",
+        "descripcion": "Ensalada de arúgula servida con pera, tomate cherry, vinágre balsámico y parmesano.",
+        "longDescripcion": "Ensalada de arúgula servida con pera, tomate cherry, vinágre balsámico y parmesano.",
         "foto": "../img/food/thumbatun-berenjena.jpg",
         "banner": ["../img/food/foodatun-berenjena.jpg"],
         "bebidas": ["bebida1","bebida1","bebida1"],
@@ -34,8 +34,8 @@
     {
       "food":{
         "nombre": "Arancino Siciliano",
-        "descripcion": "Bola de arroz rellena de salsa bolognesa y mozarella fresca, servida con una salsa de pimiento rojo, tipíco de Sicilia.",
-        "longDescripcion": "Bola de arroz rellena de salsa bolognesa y mozarella fresca, servida con una salsa de pimiento rojo, tipíco de Sicilia.",
+        "descripcion": "Bola de arroz rellena de salsa bolognesa y mozarella fresca, servida con una salsa de pimiento rojo, típico de Sicilia.",
+        "longDescripcion": "Bola de arroz rellena de salsa bolognesa y mozarella fresca, servida con una salsa de pimiento rojo, típico de Sicilia.",
         "foto": "../img/food/thumbatun-berenjena.jpg",
         "banner": ["../img/food/foodatun-berenjena.jpg"],
         "bebidas": ["bebida1","bebida1","bebida1"],
@@ -48,8 +48,8 @@
     {
       "food":{
         "nombre": "Pad Thai",
-        "descripcion": "Fideos servidos con tofu, huevo, cebolla morada, cebollin, cilantro, salsa de pescado y tamarindo.",
-        "longDescripcion": "Fideos servidos con tofu, huevo, cebolla morada, cebollin, cilantro, salsa de pescado y tamarindo.",
+        "descripcion": "ideos servidos con tofu, huevo, cebolla morada, cebollín, cilantro, salsa de pescado y tamarindo. ",
+        "longDescripcion": "ideos servidos con tofu, huevo, cebolla morada, cebollín, cilantro, salsa de pescado y tamarindo. ",
         "foto": "../img/food/thumbatun-berenjena.jpg",
         "banner": ["../img/food/foodatun-berenjena.jpg"],
         "bebidas": ["bebida1","bebida1","bebida1"],
@@ -78,8 +78,8 @@
      {
       "food":{
         "nombre": "Elotes Asados",
-        "descripcion": "Servidos con chile tajin y queso parmesano.",
-        "longDescripcion": "Servidos con chile tajin y queso parmesano.",
+        "descripcion": "Servidos con chile tajín y queso parmesano.",
+        "longDescripcion": "Servidos con chile tajín y queso parmesano.",
         "foto": "../img/food/thumbatun-berenjena.jpg",
         "banner": ["../img/food/foodatun-berenjena.jpg"],
         "bebidas": ["bebida1","bebida1","bebida1"],
@@ -106,8 +106,8 @@
     {
       "food":{
         "nombre": "Curry de Pollo",
-        "descripcion": "Estofado de pollo en leche de coco, curry y curcuma, tipico de la India.",
-        "longDescripcion": "Estofado de pollo en leche de coco, curry y curcuma, tipico de la India.",
+        "descripcion": "Estofado de pollo en leche de coco, curry y cúrcuma, típico de la India.",
+        "longDescripcion": "Estofado de pollo en leche de coco, curry y cúrcuma, típico de la India.",
         "foto": "../img/food/thumbatun-berenjena.jpg",
         "banner": ["../img/food/foodatun-berenjena.jpg"],
         "bebidas": ["bebida1","bebida1","bebida1"],
@@ -133,8 +133,8 @@
       {
       "food":{
         "nombre": "Tartaras de Atun",
-        "descripcion": "Cortado al momento, marinado en salsa de soya, champiñon y cebolla morada.",
-        "longDescripcion": "Cortado al momento, marinado en salsa de soya, champiñon y cebolla morada..",
+        "descripcion": "Cortado al momento, marinado en salsa de soya, champiñón y cebolla morada.",
+        "longDescripcion": "Cortado al momento, marinado en salsa de soya, champiñón y cebolla morada.",
         "foto": "../img/food/thumbatun-berenjena.jpg",
         "banner": ["../img/food/foodatun-berenjena.jpg"],
         "bebidas": ["bebida1","bebida1","bebida1"],
