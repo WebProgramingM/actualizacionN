@@ -28,7 +28,7 @@
   color: #adff2f;
 }
 .icon-nomads.icon-heart {
-  color: #f00;
+  color: #f9b129;
 }
 .icon-nomads.icon-flame {
   color: #f00;
@@ -43,4 +43,9 @@
 }
 .chip {
   margin-right: 4px;
+}
+.t-long {
+  color: #bf8205;
+  font-weight: normal;
+  font-style: italic;
 }

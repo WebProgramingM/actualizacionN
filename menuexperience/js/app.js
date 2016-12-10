@@ -47,7 +47,7 @@ $$(document).on('click','.ks-generate-page', function() {
             '  <div class="navbar-inner">' +
             '    <div class="left sliding"><a href="#" class="back link"><i class="icon icon-back"></i><span></span></a></div>' +
             '    <div class="center sliding"><span style="font-weight:300;">MENU</span><span style="font-weight: bold;">EXPERIENCE</span></div>' +
-            '    <div class="right sliding"><a href=""><i class="fa fa-share-alt" aria-hidden="true"></i></a></div>' +
+            '    <div class="right sliding"><a href="#" class="link open-popover" data-popover=".popover-links"><i class="fa fa-share-alt" aria-hidden="true"></i></a></div>' +
             '  </div>' +
             '</div>' +
             '<div class="pages">' +
@@ -76,7 +76,8 @@ $$(document).on('click','.ks-generate-page', function() {
             '<div id="rate" style="float: right;"></div>'+
             '</div>'+
             '</div>'+
-            '<p>'+ plate.food.longDescripcion+'</p>' +
+            '<p>'+ plate.food.descripcion+'</p>' +
+            '<p class="t-long">'+ plate.food.longDescripcion+'</p>' +
                 '<div class="maridaje">'+
                 '<h2>Maridaje</h2>'+
                 '</div>'+
@@ -85,7 +86,7 @@ $$(document).on('click','.ks-generate-page', function() {
             bebidas.join("")+
             '</ul>'+
             '</div>'+
-            '<a class="item-link item-content external " href="whatsapp://send?text=http://nomadscancun.com/" data-href="http://nomadscancun.com/" class="wa_btn wa_btn_s" >comparteme :v</a>'+
+          
             '</div>'+
             '</div>' +
 
