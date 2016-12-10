@@ -12,7 +12,7 @@ $(document).ready(function() {
         controlArrows: false,
         slidesNavigation: false,
         resetSliders: true,
-        responsiveHeight: 750,
+        responsiveHeight: 640,
         bigSectionsDestination: 'top',
         normalScrollElementTouchThreshold: 8,
         touchSensitivity: 15,
