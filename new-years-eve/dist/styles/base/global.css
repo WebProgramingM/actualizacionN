@@ -1,0 +1,98 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.clear75 {
+  display: block;
+  width: 100%;
+  height: 75px;
+  clear: both;
+}
+.clear35 {
+  display: block;
+  width: 100%;
+  height: 35px;
+  clear: both;
+}
+.navbar {
+  transition: all 0.4s ease;
+}
+.navbar-default {
+  transition: all 0.4s ease;
+}
+.navbar-nav >li >a {
+  color: #fff;
+  font-weight: 700;
+}
+.navbar-right {
+  padding-top: 40px;
+}
+.navbar-right li >a:hover {
+  background-color: transparent !important;
+}
+.navbar-right li >a:focus {
+  background-color: transparent !important;
+}
+.navbar-brand {
+  padding: 0 15px !important;
+}
+.footer {
+  background-color: #f1582c;
+  text-align: center;
+  color: #fff;
+}
+.container-fluid {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.img-home {
+  background-image: url("../images/chichen.png");
+  min-height: 100vh;
+}
+.ab-tes {
+  background-image: url("../images/supermercado.jpg");
+  min-height: 30vh;
+}
+.parallax-img {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.text-home {
+  padding-top: 20%;
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  color: #fff;
+}
+.text-home span {
+  text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
+}
+.owl-carousel {
+  padding-right: 50px;
+  padding-left: 50px;
+}
+#logo {
+  background-size: 150px 100px;
+  width: 150px;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-position: left center;
+  display: block;
+}
+#about {
+  font-size: 25px;
+}
+.btn-orange {
+  background-color: #f1582c !important;
+  border-color: #f1582c !important;
+}
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 4px solid #f1582c !important;
+  margin: 1em 0;
+  padding: 0;
+}
