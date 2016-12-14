@@ -1,0 +1,112 @@
+#contactoform {
+  max-width: 90%;
+  margin: 0 auto;
+  color: #fff;
+}
+#contactoform p {
+  color: #fff !important;
+}
+h2 {
+  color: #c0842b;
+  text-transform: uppercase;
+  font-size: 3rem;
+  margin-bottom: 10px;
+  margin-bottom: 10px;
+}
+label {
+  font-weight: 400;
+  cursor: pointer;
+  color: #fff;
+}
+textarea,
+input {
+  border: none;
+  outline: none;
+  border-radius: 0;
+  text-align: center;
+  background: none;
+  font-weight: 700;
+  font-family: 'Lato', georgia;
+  font-size: 25px;
+  color: #ea7311;
+  max-width: 90%;
+  padding: 1rem;
+  border: 1px dashed rgba(255,255,255,0);
+  box-sizing: border-box;
+  cursor: text;
+}
+textarea {
+  text-align: left;
+  resize: none;
+  width: 90%;
+  border-color: rgba(255,255,255,0);
+}
+textarea:focus {
+  background-color: rgba(255,255,255,0.2);
+  border: 1px solid #fff;
+}
+textarea:focus:required,
+textarea:focus:valid {
+  border: 1px solid rgba(255,255,255,0);
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+input:required,
+textarea:required {
+  border-bottom: 1px solid #2f2c28;
+  font-family: 'raleway';
+}
+::-webkit-input-placeholder {
+  text-align: center;
+  color: rgba(255,255,255,0.3);
+  font-size: 0.8em;
+}
+:-moz-placeholder {
+  text-align: center;
+  color: rgba(255,255,255,0.3);
+  font-size: 0.8em;
+}
+::-moz-placeholder {
+  text-align: center;
+  color: rgba(255,255,255,0.3);
+  font-size: 0.8em;
+}
+:-ms-input-placeholder {
+  text-align: center;
+  color: rgba(255,255,255,0.3);
+  font-size: 0.8em;
+}
+.expanding {
+  vertical-align: top;
+}
+.send-icn {
+  fill: #c0842b;
+}
+.send-icn:hover {
+  fill: #ea7311;
+  cursor: pointer;
+}
+button {
+  background: none;
+  border: none;
+  outline: none;
+  margin: 2vmax;
+}
+button:hover small {
+  opacity: 1;
+}
+small {
+  display: block;
+  opacity: 0;
+}
+.website {
+  opacity: 1;
+  font-size: 16px;
+  color: #fff;
+  position: relative;
+  text-align: center;
+  display: block;
+  margin-top: 7%;
+}
+.website a {
+  color: #fff;
+}

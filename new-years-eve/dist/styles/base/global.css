@@ -1,98 +1,51 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  background-color: $background-nomada;
+  color: $text-color-nomada;
 }
-.clear75 {
-  display: block;
-  width: 100%;
-  height: 75px;
-  clear: both;
+@media (min-width: 1200px) {
+  .container {
+    width: 940px;
+  }
 }
-.clear35 {
-  display: block;
-  width: 100%;
-  height: 35px;
-  clear: both;
+header {
+  position: fixed;
+  padding-top: 10px;
 }
-.navbar {
-  transition: all 0.4s ease;
+header svg {
+  width: 40px;
 }
-.navbar-default {
-  transition: all 0.4s ease;
+.video-nomads {
+  margin: 0 auto;
+  text-align: center;
 }
-.navbar-nav >li >a {
-  color: #fff;
-  font-weight: 700;
+.video-nomads video {
+  height: 100vh;
 }
-.navbar-right {
-  padding-top: 40px;
+.celebrate {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 100px;
+  font-size: 16px;
 }
-.navbar-right li >a:hover {
-  background-color: transparent !important;
+.menu {
+  text-align: center;
+  margin: 0 15px;
 }
-.navbar-right li >a:focus {
-  background-color: transparent !important;
+.menu h2 {
+  color: $text-color-nomada-menu;
 }
-.navbar-brand {
-  padding: 0 15px !important;
+.menu p {
+  color: $text-color-nomada-menu-p;
 }
 .footer {
-  background-color: #f1582c;
+  color: $text-color-nomada-menu;
   text-align: center;
-  color: #fff;
+  padding-bottom: 30px;
+  padding-top: 100px;
 }
-.container-fluid {
-  padding-left: 0 !important;
-  padding-right: 0 !important;
+.footer a {
+  color: $text-color-nomada-menu;
 }
-.img-home {
-  background-image: url("../images/chichen.png");
-  min-height: 100vh;
-}
-.ab-tes {
-  background-image: url("../images/supermercado.jpg");
-  min-height: 30vh;
-}
-.parallax-img {
-  position: relative;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.text-home {
-  padding-top: 20%;
-  text-align: center;
-  font-weight: 700;
-  font-size: 40px;
-  color: #fff;
-}
-.text-home span {
-  text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
-}
-.owl-carousel {
-  padding-right: 50px;
-  padding-left: 50px;
-}
-#logo {
-  background-size: 150px 100px;
-  width: 150px;
-  height: 100px;
-  background-repeat: no-repeat;
-  background-position: left center;
-  display: block;
-}
-#about {
-  font-size: 25px;
-}
-.btn-orange {
-  background-color: #f1582c !important;
-  border-color: #f1582c !important;
-}
-hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 4px solid #f1582c !important;
-  margin: 1em 0;
-  padding: 0;
+.footer a:hover {
+  text-decoration: none;
 }

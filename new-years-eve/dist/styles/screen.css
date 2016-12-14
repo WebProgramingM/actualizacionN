@@ -177,100 +177,165 @@ th {
   padding: 0;
 }
 body {
-  font-family: 'Roboto', sans-serif;
+  background-color: #000;
+  color: #b9830c;
 }
-.clear75 {
-  display: block;
-  width: 100%;
-  height: 75px;
-  clear: both;
+@media (min-width: 1200px) {
+  .container {
+    width: 940px;
+  }
 }
-.clear35 {
-  display: block;
-  width: 100%;
-  height: 35px;
-  clear: both;
+header {
+  position: fixed;
+  padding-top: 10px;
 }
-.navbar {
-  transition: all 0.4s ease;
+header svg {
+  width: 40px;
 }
-.navbar-default {
-  transition: all 0.4s ease;
+.video-nomads {
+  margin: 0 auto;
+  text-align: center;
 }
-.navbar-nav >li >a {
-  color: #fff;
-  font-weight: 700;
+.video-nomads video {
+  height: 100vh;
 }
-.navbar-right {
-  padding-top: 40px;
+.celebrate {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 100px;
+  font-size: 16px;
 }
-.navbar-right li >a:hover {
-  background-color: transparent !important;
+.menu {
+  text-align: center;
+  margin: 0 15px;
 }
-.navbar-right li >a:focus {
-  background-color: transparent !important;
+.menu h2 {
+  color: #f7f091;
 }
-.navbar-brand {
-  padding: 0 15px !important;
+.menu p {
+  color: #ae703c;
 }
 .footer {
-  background-color: #f1582c;
+  color: #f7f091;
   text-align: center;
+  padding-bottom: 30px;
+  padding-top: 100px;
+}
+.footer a {
+  color: #f7f091;
+}
+.footer a:hover {
+  text-decoration: none;
+}
+#contactoform {
+  max-width: 90%;
+  margin: 0 auto;
   color: #fff;
 }
-.container-fluid {
-  padding-left: 0 !important;
-  padding-right: 0 !important;
+#contactoform p {
+  color: #fff !important;
 }
-.img-home {
-  background-image: url("../images/chichen.png");
-  min-height: 100vh;
+h2 {
+  color: #c0842b;
+  text-transform: uppercase;
+  font-size: 3rem;
+  margin-bottom: 10px;
+  margin-bottom: 10px;
 }
-.ab-tes {
-  background-image: url("../images/supermercado.jpg");
-  min-height: 30vh;
+label {
+  font-weight: 400;
+  cursor: pointer;
+  color: #fff;
 }
-.parallax-img {
-  position: relative;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.text-home {
-  padding-top: 20%;
+textarea,
+input {
+  border: none;
+  outline: none;
+  border-radius: 0;
   text-align: center;
+  background: none;
   font-weight: 700;
-  font-size: 40px;
-  color: #fff;
-}
-.text-home span {
-  text-shadow: -2px -2px 1px #000, 2px 2px 1px #000, -2px 2px 1px #000, 2px -2px 1px #000;
-}
-.owl-carousel {
-  padding-right: 50px;
-  padding-left: 50px;
-}
-#logo {
-  background-size: 150px 100px;
-  width: 150px;
-  height: 100px;
-  background-repeat: no-repeat;
-  background-position: left center;
-  display: block;
-}
-#about {
+  font-family: 'Lato', georgia;
   font-size: 25px;
+  color: #ea7311;
+  max-width: 90%;
+  padding: 1rem;
+  border: 1px dashed rgba(255,255,255,0);
+  box-sizing: border-box;
+  cursor: text;
 }
-.btn-orange {
-  background-color: #f1582c !important;
-  border-color: #f1582c !important;
+textarea {
+  text-align: left;
+  resize: none;
+  width: 90%;
+  border-color: rgba(255,255,255,0);
 }
-hr {
+textarea:focus {
+  background-color: rgba(255,255,255,0.2);
+  border: 1px solid #fff;
+}
+textarea:focus:required,
+textarea:focus:valid {
+  border: 1px solid rgba(255,255,255,0);
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+input:required,
+textarea:required {
+  border-bottom: 1px solid #2f2c28;
+  font-family: 'raleway';
+}
+::-webkit-input-placeholder {
+  text-align: center;
+  color: rgba(255,255,255,0.3);
+  font-size: 0.8em;
+}
+:-moz-placeholder {
+  text-align: center;
+  color: rgba(255,255,255,0.3);
+  font-size: 0.8em;
+}
+::-moz-placeholder {
+  text-align: center;
+  color: rgba(255,255,255,0.3);
+  font-size: 0.8em;
+}
+:-ms-input-placeholder {
+  text-align: center;
+  color: rgba(255,255,255,0.3);
+  font-size: 0.8em;
+}
+.expanding {
+  vertical-align: top;
+}
+.send-icn {
+  fill: #c0842b;
+}
+.send-icn:hover {
+  fill: #ea7311;
+  cursor: pointer;
+}
+button {
+  background: none;
+  border: none;
+  outline: none;
+  margin: 2vmax;
+}
+button:hover small {
+  opacity: 1;
+}
+small {
   display: block;
-  height: 1px;
-  border: 0;
-  border-top: 4px solid #f1582c !important;
-  margin: 1em 0;
-  padding: 0;
+  opacity: 0;
+}
+.website {
+  opacity: 1;
+  font-size: 16px;
+  color: #fff;
+  position: relative;
+  text-align: center;
+  display: block;
+  margin-top: 7%;
+}
+.website a {
+  color: #fff;
 }
