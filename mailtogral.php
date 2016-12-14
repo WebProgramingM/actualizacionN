@@ -30,6 +30,6 @@
 	        $response['message'] = "There it was a problem sending your message, please try again.";
 
 		}
-	    echo json_encode($response);
     }
+    echo json_encode($response);
 ?>
