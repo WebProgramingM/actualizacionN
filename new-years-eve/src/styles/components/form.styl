@@ -1,3 +1,6 @@
+.formulario
+	text-align: center
+	padding-top: 100px
 #contactoform
 	max-width 90%
 	margin 0 auto
@@ -5,7 +8,7 @@
 	p
 		color white !important
 h2
-	color #c0842b
+	color $text-color-nomada
 	text-transform uppercase
 	font-size 3rem
 	margin-bottom 10px
@@ -25,17 +28,21 @@ input
 	font-weight 700
 	font-family 'Lato', georgia
 	font-size 25px
-	color #ea7311
+	color $text-color-nomada-menu
 	max-width 90%
 	padding 1rem
 	border 1px dashed rgba(255, 255, 255, 0)
 	box-sizing border-box
 	cursor text
+	&:-webkit-autofill
+		-webkit-box-shadow: 0 0 0 1000px black inset;
+		-webkit-text-fill-color: $text-color-nomada-menu
+		transition: black 5000s ease-in-out 0s
 
 textarea
 	text-align left
 	resize none
-	width 90%
+	width 60%
 	border-color rgba(255, 255, 255, 0)
 	&:focus
 		background-color rgba(255, 255, 255, 0.2)
@@ -89,9 +96,9 @@ textarea:required
 	vertical-align top
 
 .send-icn
-	fill #c0842b
+	fill $text-color-nomada
 	&:hover
-		fill #ea7311
+		fill $text-color-nomada-menu
 		cursor pointer
 
 button
