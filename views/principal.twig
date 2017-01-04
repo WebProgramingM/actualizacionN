@@ -3,6 +3,7 @@
 {% block extraStyles %}
 	<link rel="stylesheet" type="text/css" href="css/photoswipe.css" />
 	<link rel="stylesheet" type="text/css" href="css/default-skin/default-skin.css" />
+	<script src='https://www.google.com/recaptcha/api.js'></script>
 {% endblock %}
 
 {% block SiteContent %}
@@ -25,13 +26,12 @@
 			<div class="layer">
 				{# <img src="img/logohome.png" alt="Nomads Cocina & Barra"> #}
 				<a href="/new-years-eve">
-				<img src="img/NYE.png" alt="Nomads Cocina & Barra">
+				<img src="img/logohome.png.png" alt="Nomads Cocina & Barra">
 				</a>
 				<br>
-				<a href="/new-years-eve" class="btn btn-nomads">MÁS INFORMACIÓN</a>
+				<a href="#Reserve" class="btn btn-nomads">Reservar una Mesa</a>
 				<br>
 				<br>
-				<a href="#Reserve">Reservar una Mesa</a>
 			</div>
 		</div>
 
@@ -131,7 +131,10 @@
 						  <p>
 						    <textarea name="message" id="message" rows="5" placeholder="(Tu Mensaje Aquí)" class="expanding" required></textarea>
 						  </p>
-						  <p>					  	
+						  <p>
+						  <div class="captcha">
+						  	<div class="g-recaptcha" data-sitekey="6Le7gBAUAAAAAGG8mg-TeY1tnUWKgiop3GbcYTFT"></div>					  	
+						  </div>
 						    <button type="submit">
 						      <svg version="1.1" class="send-icn" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100px" height="36px" viewBox="0 0 100 36" enable-background="new 0 0 100 36" xml:space="preserve">
 						        <path d="M100,0L100,0 M23.8,7.1L100,0L40.9,36l-4.7-7.5L22,34.8l-4-11L0,30.5L16.4,8.7l5.4,15L23,7L23.8,7.1z M16.8,20.4l-1.5-4.3
