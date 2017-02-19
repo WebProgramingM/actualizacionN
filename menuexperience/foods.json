@@ -48,17 +48,17 @@
     },
     {
       "food":{
-        "nombre": "Pad Thai",
+        "nombre": "Taglioni Nero",
 
-        "descripcion": "Fideos servidos con tofu, huevo, cebolla morada, cebollin, cilantro, salsa de pescado y tamarindo.",
-        "longDescripcion": "Plato inspirado de los food court de Bangkok, tiene un balance entre dulce y salado con un aroma muy característico, pero de exquisito sabor.",
+        "descripcion": "Tallarines a la tinta de calamar con crema de calabaza italiana y camarones;",
+        "longDescripcion": "combinación de sabores clásicos de la tradición italiana.",
         "foto": "../img/food/thumbatun-berenjena.jpg",
         "banner": ["../img/food/foodatun-berenjena.jpg"],
         "bebidas": ["Golden Mule (Tequila)","Paloma Picante (Mezcal)"],
 
         "tags": ["<div class='icon-nomads icon-vegetarian-mark'></div>"],
 
-        "precio": "$95 - 105",
+        "precio": "$160",
         "rate": "5"
 
       }
@@ -87,7 +87,7 @@
         "banner": ["../img/food/foodelote.jpg"],
         "bebidas": ["Refresco de Cola"],
         "tags": ["<div class='icon-nomads icon-vegetarian-mark'></div>","<div class='icon-nomads icon-heart'></div>"],
-        "precio": "$40",
+        "precio": "$60",
         "rate": "5"
 
       }
@@ -117,7 +117,7 @@
         "banner": ["../img/food/foodatun-berenjena.jpg"],
         "bebidas": ["Old Cuban (Ron)"],
         "tags": ["<div class='icon-nomads icon-heart'></div>"],
-        "precio": "$145",
+        "precio": "$140",
         "rate": "5"
 
       }
@@ -146,7 +146,7 @@
         "banner": ["../img/food/foodatun-berenjena.jpg"],
         "bebidas": ["Alamos Chardonay (Argentina)"],
         "tags": ["<div class='icon-nomads icon-heart'></div>"],
-        "precio": "$105",
+        "precio": "$110",
         "rate": "5"
       }
     },
@@ -178,9 +178,9 @@
     },
     {
       "food":{
-        "nombre": "Pork Belly",
-        "descripcion": "Cocinado de 73° por 12 horas en salsa de soya, vinagre de arroz y jengibre. Servido crujiente en una cama de arroz blanco, tipíco de Singapur.",
-        "longDescripcion": "Inspirado en el Food Court de Singapur, una combinación entre comida china y malaya.",
+        "nombre": "Costilla de Cerdo",
+        "descripcion": "Cocinado a 73ºC por 12 horas en salsa de soya, vinagre de arroz y jenjibre, servido sobre puré de camote.",
+        "longDescripcion": "",
         "foto": "../img/food/thumbporkbelly.jpg",
         "banner": ["../img/food/foodporkbelly.jpg"],
         "bebidas": ["Market 23 (Ron)"],
@@ -261,29 +261,11 @@
         "rate": "5"
       }
     },
-
-    {
-      "food":{
-        "nombre": "Costilla de Cordero",
-        "descripcion": "Rack de cordero cocinado a 62°C en costra de mostaza y cebollin, servido con papas cambray y tomillo.",
-        "longDescripcion": "Esta es una receta en honor al Chef Inglés Marco Pierre White.",
-        "foto": "../img/food/thumbcordero.jpg",
-        "banner": ["../img/food/foodcordero.jpg"],
-        "bebidas": [],
-
-        "tags": [],
-
-        "precio": "$295",
-        "rate": "5"
-
-      }
-
-    },
      {
       "food":{
         "nombre": "Rib Eye",
-        "descripcion": "Corte estilo Rib Eye cocinado a 62°C servido con crema de huitlacoche y mini elotes en escabeche.",
-        "longDescripcion": "Jugando con los sabores mexicanos, el chef elaboró un platillo balanceado entre tonos ácidos y el peculiar sabor del huitlacoche.",
+        "descripcion": "Corte estilo Rib Eye cocinado a 60ºC, servido con un trixat de papa y col chino, crema de champiñones y tomáte cherry al ajillo;",
+        "longDescripcion": "un plato que recuerda la Catalunya.",
         "foto": "../img/food/thumbribeye.jpg",
         "banner": ["../img/food/foodribeye.jpg"],
         "bebidas": ["Alamos Malbec  (Argentina)","Casa Madero 3V (Mexico)","Casa Madero Cabernet Sauvignon (Mexico)"],
@@ -301,7 +283,7 @@
         "banner": ["../img/food/foodatun-berenjena.jpg"],
         "bebidas": ["Shot de Salsa Habanero","Punta Nogal Merlot","Tamerind Whiskey Sour (Whiskey)"],
         "tags": ["<div class='icon-nomads icon-heart'></div>"],
-        "precio": "$170",
+        "precio": "$175",
         "rate": "5"
       }
     },
@@ -351,15 +333,13 @@
 
     {
       "food":{
-        "nombre": "Pannacotta de Frutos Rojos",
-        "descripcion": "Pannacota clásica de frutos rojos acompañados con reduccion de vinagre balsámico.",
-        "longDescripcion": "Es un postre más clásicos en Italia, el chef personalmente lo sirve con una gelatina de menta y reducción de vinagre hecho en la cocina.",
-        "foto": "../img/food/thumbpannacota.jpg",
-        "banner": ["../img/food/foodpannacota.jpg"],
+        "nombre": "Apfelkuchen",
+        "descripcion": "Tarta de manzana tradicional alemana, servida con helado de vainilla aldo’s.",
+        "longDescripcion": "",
+        "foto": "../img/food/thumbatun-berenjena.jpgg",
+        "banner": ["../img/food/foodatun-berenjena.jpg"],
         "bebidas": [],
-
         "tags": [],
-
         "precio": "$80",
         "rate": "5"
 
