@@ -12,6 +12,7 @@
         "tags": ["<div class='icon-nomads icon-vegetarian-mark'></div>","<div class='icon-nomads icon-heart'></div>"],
 
         // "precio": "$80",
+        "precio": "$$",
         "rate": "5"
 
       }
@@ -27,6 +28,7 @@
 
         "tags": ["<div class='icon-nomads icon-vegetarian-mark'></div>","<div class='icon-nomads icon-heart'></div>"],
         // "precio": "$80",
+        "precio": "$$",
         "rate": "5"
 
       }
@@ -42,6 +44,7 @@
         "bebidas": ["Punta Nogal Merlot (Chile)","Lindeman’s Shiraz (Australia)"],
         "tags": [],
         // "precio": "$80",
+        "precio": "$$",
         "rate": "5"
 
       }
@@ -59,6 +62,7 @@
         "tags": ["<div class='icon-nomads icon-vegetarian-mark'></div>"],
 
         // "precio": "$160",
+        "precio": "$$",
         "rate": "5"
 
       }
@@ -73,6 +77,7 @@
         "bebidas": [],
         "tags": ["<div class='icon-nomads icon-vegetarian-mark'></div>"],
         // "precio": "$80",
+        "precio": "$$",
         "rate": "5"
 
       }
@@ -88,6 +93,7 @@
         "bebidas": ["Refresco de Cola"],
         "tags": ["<div class='icon-nomads icon-vegetarian-mark'></div>","<div class='icon-nomads icon-heart'></div>"],
         // "precio": "$60",
+        "precio": "$$",
         "rate": "5"
 
       }
@@ -102,6 +108,7 @@
         "bebidas": [],
         "tags": [],
         // "precio": "$95",
+        "precio": "$$",
         "rate": "5"
 
       }
@@ -118,6 +125,7 @@
         "bebidas": ["Old Cuban (Ron)"],
         "tags": ["<div class='icon-nomads icon-heart'></div>"],
         // "precio": "$140",
+        "precio": "$$",
         "rate": "5"
 
       }
@@ -132,6 +140,7 @@
         "bebidas": ["Pura Vida (Vodka)","Jugo de Naranja Mineral"],
         "tags": ["<div class='icon-nomads icon-vegetarian-mark'></div>"],
         // "precio": "$80",
+        "precio": "$$",
         "rate": "5"
       }
     },
@@ -147,6 +156,7 @@
         "bebidas": ["Alamos Chardonay (Argentina)"],
         "tags": ["<div class='icon-nomads icon-heart'></div>"],
         // "precio": "$110",
+        "precio": "$$",
         "rate": "5"
       }
     },
@@ -160,6 +170,7 @@
         "bebidas": ["Golden Mule (Tequila)","Vaqueri Tikki (Whiskey)"],
         "tags": ["<div class='icon-nomads icon-vegetarian-mark'></div>"],
         // "precio": "$40",
+        "precio": "$$",
         "rate": "5"
       }
     },
@@ -173,6 +184,7 @@
         "bebidas": [],
         "tags": [],
         // "precio": "$130",
+        "precio": "$$",
         "rate": "5"
       }
     },
@@ -188,6 +200,7 @@
         "tags": ["<div class='icon-nomads icon-heart'></div>"],
 
         // "precio": "$150",
+        "precio": "$$",
         "rate": "5"
 
       }
@@ -204,6 +217,7 @@
         "tags": ["<div class='icon-nomads icon-heart'></div>"],
 
         // "precio": "$145",
+        "precio": "$$",
         "rate": "5"
 
       }
@@ -219,6 +233,7 @@
         "bebidas": ["Casa Madero 3V (Mexico)"],
         "tags": ["<div class='icon-nomads icon-vegetarian-mark'></div>","<div class='icon-nomads icon-heart'></div>"],
         // "precio": "$125",
+        "precio": "$$",
         "rate": "5"
       }
     },
@@ -232,6 +247,7 @@
         "bebidas": [],
         "tags": [],
         // "precio": "$160",
+        "precio": "$$",
         "rate": "5"
       }
     },
@@ -245,6 +261,7 @@
         "bebidas": ["Alamos Chardonay (Argentina)"],
         "tags": [],
         // "precio": "$170",
+        "precio": "$$",
         "rate": "5"
       }
     },
@@ -258,6 +275,7 @@
         "bebidas": [],
         "tags": ["<div class='icon-nomads icon-heart'></div>"],
         // "precio": "$170",
+        "precio": "$$",
         "rate": "5"
       }
     },
@@ -271,6 +289,7 @@
         "bebidas": ["Alamos Malbec  (Argentina)","Casa Madero 3V (Mexico)","Casa Madero Cabernet Sauvignon (Mexico)"],
         "tags": ["<div class='icon-nomads icon-heart'></div>"],
         // "precio": "$280",
+        "precio": "$$",
         "rate": "5"
       }
     },
@@ -284,6 +303,7 @@
         "bebidas": ["Shot de Salsa Habanero","Punta Nogal Merlot","Tamerind Whiskey Sour (Whiskey)"],
         "tags": ["<div class='icon-nomads icon-heart'></div>"],
         // "precio": "$175",
+        "precio": "$$",
         "rate": "5"
       }
     },
@@ -300,6 +320,7 @@
         "tags": ["<div class='icon-nomads icon-heart'></div>"],
 
         // "precio": "$170",
+        "precio": "$$",
         "rate": "5"
 
       }
@@ -314,6 +335,7 @@
         "bebidas": [],
         "tags": [],
         // "precio": "$80",
+        "precio": "$$",
         "rate": "5"
       }
     },
@@ -327,6 +349,7 @@
         "bebidas": [],
         "tags": [],
         // "precio": "$80",
+        "precio": "$$",
         "rate": "5"
       }
     },
@@ -341,6 +364,7 @@
         "bebidas": [],
         "tags": [],
         // "precio": "$80",
+        "precio": "$$",
         "rate": "5"
 
       }
@@ -355,6 +379,7 @@
         "bebidas": [],
         "tags": [],
         // "precio": "$80",
+        "precio": "$$",
         "rate": "5"
       }
     },
@@ -368,6 +393,7 @@
         "bebidas": [],
         "tags": [],
         // "precio": "$85",
+        "precio": "$$",
         "rate": "5"
       }
     },
@@ -383,6 +409,7 @@
         "tags": [],
 
         // "precio": "$80",
+        "precio": "$$",
         "rate": "5"
 
       }
