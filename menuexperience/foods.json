@@ -11,7 +11,7 @@
 
         "tags": ["<div class='icon-nomads icon-vegetarian-mark'></div>","<div class='icon-nomads icon-heart'></div>"],
 
-        "precio": "$80",
+        // "precio": "$80",
         "rate": "5"
 
       }
@@ -26,7 +26,7 @@
         "bebidas": ["Placido Pinot Grigio (Italia)"],
 
         "tags": ["<div class='icon-nomads icon-vegetarian-mark'></div>","<div class='icon-nomads icon-heart'></div>"],
-        "precio": "$80",
+        // "precio": "$80",
         "rate": "5"
 
       }
@@ -41,7 +41,7 @@
         "banner": ["../img/food/foodatun-berenjena.jpg"],
         "bebidas": ["Punta Nogal Merlot (Chile)","Lindeman’s Shiraz (Australia)"],
         "tags": [],
-        "precio": "$80",
+        // "precio": "$80",
         "rate": "5"
 
       }
@@ -58,7 +58,7 @@
 
         "tags": ["<div class='icon-nomads icon-vegetarian-mark'></div>"],
 
-        "precio": "$160",
+        // "precio": "$160",
         "rate": "5"
 
       }
@@ -72,7 +72,7 @@
         "banner": ["../img/food/foodatun-berenjena.jpg"],
         "bebidas": [],
         "tags": ["<div class='icon-nomads icon-vegetarian-mark'></div>"],
-        "precio": "$80",
+        // "precio": "$80",
         "rate": "5"
 
       }
@@ -87,7 +87,7 @@
         "banner": ["../img/food/foodelote.jpg"],
         "bebidas": ["Refresco de Cola"],
         "tags": ["<div class='icon-nomads icon-vegetarian-mark'></div>","<div class='icon-nomads icon-heart'></div>"],
-        "precio": "$60",
+        // "precio": "$60",
         "rate": "5"
 
       }
@@ -101,7 +101,7 @@
         "banner": ["../img/food/foodatun-berenjena.jpg"],
         "bebidas": [],
         "tags": [],
-        "precio": "$95",
+        // "precio": "$95",
         "rate": "5"
 
       }
@@ -117,7 +117,7 @@
         "banner": ["../img/food/foodatun-berenjena.jpg"],
         "bebidas": ["Old Cuban (Ron)"],
         "tags": ["<div class='icon-nomads icon-heart'></div>"],
-        "precio": "$140",
+        // "precio": "$140",
         "rate": "5"
 
       }
@@ -131,7 +131,7 @@
         "banner": ["../img/food/foodatun-berenjena.jpg"],
         "bebidas": ["Pura Vida (Vodka)","Jugo de Naranja Mineral"],
         "tags": ["<div class='icon-nomads icon-vegetarian-mark'></div>"],
-        "precio": "$80",
+        // "precio": "$80",
         "rate": "5"
       }
     },
@@ -146,7 +146,7 @@
         "banner": ["../img/food/foodatun-berenjena.jpg"],
         "bebidas": ["Alamos Chardonay (Argentina)"],
         "tags": ["<div class='icon-nomads icon-heart'></div>"],
-        "precio": "$110",
+        // "precio": "$110",
         "rate": "5"
       }
     },
@@ -159,7 +159,7 @@
         "banner": ["../img/food/foodatun-berenjena.jpg"],
         "bebidas": ["Golden Mule (Tequila)","Vaqueri Tikki (Whiskey)"],
         "tags": ["<div class='icon-nomads icon-vegetarian-mark'></div>"],
-        "precio": "$40",
+        // "precio": "$40",
         "rate": "5"
       }
     },
@@ -172,7 +172,7 @@
         "banner": ["../img/food/foodatun-berenjena.jpg"],
         "bebidas": [],
         "tags": [],
-        "precio": "$130",
+        // "precio": "$130",
         "rate": "5"
       }
     },
@@ -187,7 +187,7 @@
 
         "tags": ["<div class='icon-nomads icon-heart'></div>"],
 
-        "precio": "$150",
+        // "precio": "$150",
         "rate": "5"
 
       }
@@ -203,7 +203,7 @@
 
         "tags": ["<div class='icon-nomads icon-heart'></div>"],
 
-        "precio": "$145",
+        // "precio": "$145",
         "rate": "5"
 
       }
@@ -218,7 +218,7 @@
         "banner": ["../img/food/foodatun-berenjena.jpg"],
         "bebidas": ["Casa Madero 3V (Mexico)"],
         "tags": ["<div class='icon-nomads icon-vegetarian-mark'></div>","<div class='icon-nomads icon-heart'></div>"],
-        "precio": "$125",
+        // "precio": "$125",
         "rate": "5"
       }
     },
@@ -231,7 +231,7 @@
         "banner": ["../img/food/foodatun-berenjena.jpg"],
         "bebidas": [],
         "tags": [],
-        "precio": "$160",
+        // "precio": "$160",
         "rate": "5"
       }
     },
@@ -244,7 +244,7 @@
         "banner": ["../img/food/foodatun-berenjena.jpg"],
         "bebidas": ["Alamos Chardonay (Argentina)"],
         "tags": [],
-        "precio": "$170",
+        // "precio": "$170",
         "rate": "5"
       }
     },
@@ -257,7 +257,7 @@
         "banner": ["../img/food/foodatun-berenjena.jpg"],
         "bebidas": [],
         "tags": ["<div class='icon-nomads icon-heart'></div>"],
-        "precio": "$170",
+        // "precio": "$170",
         "rate": "5"
       }
     },
@@ -270,7 +270,7 @@
         "banner": ["../img/food/foodribeye.jpg"],
         "bebidas": ["Alamos Malbec  (Argentina)","Casa Madero 3V (Mexico)","Casa Madero Cabernet Sauvignon (Mexico)"],
         "tags": ["<div class='icon-nomads icon-heart'></div>"],
-        "precio": "$280",
+        // "precio": "$280",
         "rate": "5"
       }
     },
@@ -283,7 +283,7 @@
         "banner": ["../img/food/foodatun-berenjena.jpg"],
         "bebidas": ["Shot de Salsa Habanero","Punta Nogal Merlot","Tamerind Whiskey Sour (Whiskey)"],
         "tags": ["<div class='icon-nomads icon-heart'></div>"],
-        "precio": "$175",
+        // "precio": "$175",
         "rate": "5"
       }
     },
@@ -299,7 +299,7 @@
 
         "tags": ["<div class='icon-nomads icon-heart'></div>"],
 
-        "precio": "$170",
+        // "precio": "$170",
         "rate": "5"
 
       }
@@ -313,7 +313,7 @@
         "banner": ["../img/food/foodatun-berenjena.jpg"],
         "bebidas": [],
         "tags": [],
-        "precio": "$80",
+        // "precio": "$80",
         "rate": "5"
       }
     },
@@ -326,7 +326,7 @@
         "banner": ["../img/food/foodatun-berenjena.jpg"],
         "bebidas": [],
         "tags": [],
-        "precio": "$80",
+        // "precio": "$80",
         "rate": "5"
       }
     },
@@ -340,7 +340,7 @@
         "banner": ["../img/food/foodatun-berenjena.jpg"],
         "bebidas": [],
         "tags": [],
-        "precio": "$80",
+        // "precio": "$80",
         "rate": "5"
 
       }
@@ -354,7 +354,7 @@
         "banner": ["../img/food/foodatun-berenjena.jpg"],
         "bebidas": [],
         "tags": [],
-        "precio": "$80",
+        // "precio": "$80",
         "rate": "5"
       }
     },
@@ -367,7 +367,7 @@
         "banner": ["../img/food/foodatun-berenjena.jpg"],
         "bebidas": [],
         "tags": [],
-        "precio": "$85",
+        // "precio": "$85",
         "rate": "5"
       }
     },
@@ -382,7 +382,7 @@
 
         "tags": [],
 
-        "precio": "$80",
+        // "precio": "$80",
         "rate": "5"
 
       }
