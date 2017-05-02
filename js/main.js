@@ -71,6 +71,7 @@ $(document).ready(function() {
         }
     });     
 
+
     $("#contactoform").on('submit', function() {
         var that = $(this),
             url = that.attr('action'),
@@ -389,3 +390,5 @@ function initMap() {
             map.setCenter(marker.getPosition());
     });
 }
+
+
