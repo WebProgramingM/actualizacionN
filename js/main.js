@@ -378,13 +378,7 @@ function initMap() {
             map: map,
             icon: image
     });
-    map.addListener('center_changed', function() {
-            // 3 seconds after the center of the map has changed, pan back to the
-            // marker.
-            window.setTimeout(function() {
-                map.panTo(marker.getPosition());
-            }, 3000);
-    });
+   
     marker.addListener('click', function() {
             map.setZoom(19);
             map.setCenter(marker.getPosition());
