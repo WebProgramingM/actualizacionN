@@ -112,46 +112,61 @@
 			<div class="container inner">
 				<div class="row">
 					<div class="col-xs-12 col-sm-6 col-sm-offset-6" id="contacto">
-
 						<h2>Contáctanos;</h2>
 						<p>Déjanos tu mensaje a continuación:</p>
-						<form id="contactoform" action="mailtogral.php" method="post">
-						  <p>Hola, mi
-						    <label for="your-name">nombre</label> es:
-						    <input type="text" name="name" id="name" minlength="3" placeholder="(Tu nombre aquí)" required> y</p>
-						    <br>
-
-						  <p>Mi
-						    <label for="email">Correo Electrónico</label> es:
-						    <input type="email" name="email" id="email" placeholder="(Tu Correo Electrónico)" required>
-						  </p>
-						  <br>
-
-						  <p>Mi 
-						    <label for="message">Mensaje</label> es el siguiente;</p>
-
-						  <p>
-						    <textarea name="message" id="message" rows="5" placeholder="(Tu Mensaje Aquí)" class="expanding" required></textarea>
-						  </p>
-						  <p>
-						  <div class="captcha">
-						  	<div class="g-recaptcha" data-sitekey="6Le7gBAUAAAAAGG8mg-TeY1tnUWKgiop3GbcYTFT" data-theme="dark"></div>					  	
-						  </div>
-						    <button type="submit">
-						      <svg version="1.1" class="send-icn" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100px" height="36px" viewBox="0 0 100 36" enable-background="new 0 0 100 36" xml:space="preserve">
-						        <path d="M100,0L100,0 M23.8,7.1L100,0L40.9,36l-4.7-7.5L22,34.8l-4-11L0,30.5L16.4,8.7l5.4,15L23,7L23.8,7.1z M16.8,20.4l-1.5-4.3
-							l-5.1,6.7L16.8,20.4z M34.4,25.4l-8.1-13.1L25,29.6L34.4,25.4z M35.2,13.2l8.1,13.1L70,9.9L35.2,13.2z" />
-						      </svg>
-						      <small>send</small>
-						    </button>
-						  </p>
-						</form>
-				</div>
+						<form class="jotform-form" action="https://submit.jotform.co/submit/72755801667869/" method="post" name="form_72755801667869" id="72755801667869" accept-charset="utf-8">
+							
+							<input type="hidden" name="formID" value="72755801667869" />
+							<div class="form-group form-line jf-required mb-3" data-type="control_fullname" id="id_3">
+								<!-- <label id="label_3" for="first_3">Name <span class="form-required"> * </span></label> -->
+								<div id="cid_3" class="jf-required">
+									<div data-wrapper-react="true">
+											<p>Hola, mi
+													<label for="your-name">nombre</label> es:
+													<input type="text" id="first_3" name="q3_name[first]" class="form-textbox validate[required]" placeholder="(Tu Nombre)" size="10" value="" data-component="first" required="" />
+													<input type="text" id="last_3" name="q3_name[last]" class="form-textbox validate[required]" placeholder="(Tu Apeido)" size="15" value="" data-component="last" required="" />
+									<!-- <span class="form-sub-label-container" style="vertical-align:top;">
+									<label class="form-sub-label" for="first_3" id="sublabel_first" style="min-height:13px;"> First Name </label> </span> -->
+									<!-- <span class="form-sub-label-container" style="vertical-align:top;">
+									<label class="form-sub-label" for="last_3" id="sublabel_last" style="min-height:13px;"> Last Name </label> </span> -->
+									</div>
+								</div>
+							</div>
+							<br>
+							
+													  
+							<div class="form-group form-line jf-required mb-3" data-type="control_email" id="id_7">
+								<!-- <label class="form-label form-label-top form-label-auto" id="label_7" for="input_7"> E-mail <span class="form-required"> * </span> </label> -->
+								<div id="cid_7" class="form-input-wide jf-required">
+										<p>Mi <label for="email">Correo Electrónico</label> es:
+											<input type="email" id="input_4" name="q4_email" class="form-textbox validate[required, Email]" placeholder="(Tu Correo Electrónico)" value="" data-component="email" required="" />
+								</div>
+								<small id="emailHelp" class="form-text text-muted">{{op.emailHelp}}</small>
+							</div>
+							<p>Mi Mensaje es el siguiente;</p>
+							<div class="form-group form-line mb-3" data-type="control_textarea" id="id_8">
+								<!-- <label class="form-label form-label-top form-label-auto" id="label_8" for="input_8"> Message </label> -->
+								<div id="cid_8" class="form-input-wide jf-required"><textarea id="input_7" class="form-textarea validate[required]" placeholder="(Tu Mensaje Aqui)" name="q7_mesage" cols="40" rows="6" data-component="textarea" required=""></textarea></div>
+							</div>
+							<div class="form-line" data-type="control_button" id="id_2">
+									<div id="cid_2" class="form-input-wide">
+										<button id="input_2" type="submit" class="btn btn-book form-submit-button float-right" data-component="button"><svg version="1.1" class="send-icn" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100px" height="36px" viewBox="0 0 100 36" enable-background="new 0 0 100 36" xml:space="preserve">
+											<path d="M100,0L100,0 M23.8,7.1L100,0L40.9,36l-4.7-7.5L22,34.8l-4-11L0,30.5L16.4,8.7l5.4,15L23,7L23.8,7.1z M16.8,20.4l-1.5-4.3
+										l-5.1,6.7L16.8,20.4z M34.4,25.4l-8.1-13.1L25,29.6L34.4,25.4z M35.2,13.2l8.1,13.1L70,9.9L35.2,13.2z" />
+										  </svg>
+										  <small>send</small></button>
+									</div>
+								</div>
+								<div style="display:none">
+									{{op.emptyfield}} <input type="text" name="website" value="" />
+								</div>
+								<input type="hidden" id="simple_spc" name="simple_spc" value="72575732467870" />
+						</form>	
 			</div>
 		</div>
 	</div>
 
-	
+	</div>
 </div>
 {% endblock %}
 
@@ -174,6 +189,5 @@
 	<script src="js/photoswipe-ui-default.min.js"></script> 
 	<script src="js/classie.js"></script>
 	<script src="js/main.js"></script>
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAX4V8ZT70JCVuPsgTCHxXt2FIclqgfyLk&callback=initMap"
-	async defer></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAX4V8ZT70JCVuPsgTCHxXt2FIclqgfyLk&callback=initMap" async defer></script>
 {% endblock %}
