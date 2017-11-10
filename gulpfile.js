@@ -27,7 +27,7 @@ gulp.task('images', function(){
 // Static Server + watching stylus/php files
 gulp.task('serve', ['styles'], function() {
     browserSync.init({
-		proxy: "http://local.nomadscancun.com:8888",
+		proxy: "http://localhost:8888",
 		notify: false
     });
     gulp.watch("./styles/*.styl", ['styles']);
