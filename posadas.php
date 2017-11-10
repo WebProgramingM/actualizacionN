@@ -4,7 +4,7 @@
 
 	$params= array(
 		'titulo' => "Hola Mundo",
-		'sliders' => $sliders
+		'posada' => true
 	);
 
 	echo $twig->render('posadas.twig', $params);
