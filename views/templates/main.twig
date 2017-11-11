@@ -22,6 +22,8 @@
 </head>
 <body>
 	{# <div class="advicerotate"></div> #}
+	{% if posada is defined%}
+	{% else %}
 	<nav id="menumain">
 		<a href="#" class="menuhit" id="trigger-overlay">
 			<svg version="1.1"
@@ -35,6 +37,7 @@
 				<i class="icon-bars"></i>
 			</a>
 		</nav>
+		{% endif %}
 		{% block SiteContent %}
 		{% endblock %}
 
