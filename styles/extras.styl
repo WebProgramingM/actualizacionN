@@ -2,6 +2,11 @@
 .pagine
 	h1,h2,h3,h4,h5,p
 		font-family: 'Josefin Sans', sans-serif;
+	svg
+		fill #efb141
+		+for_breakpoint(mobile)
+			padding-left: 15px
+		
 #posadaHome
 	background-image url('../img/fondo-posadas.png')
 	background-position top center
@@ -12,7 +17,7 @@
 	position: relative
 	display: flex
 	.aling
-		top 15%
+		top 10%
 		left 50%
 		-webkit-transform translateX(-50%)
 		transform translateX,Y (-50%)
@@ -49,11 +54,14 @@
 	z-index -2
 	position: relative
 	display: block
+	padding-top: 20vh
+	+for_breakpoint(mobile)
+		padding-top: 10vh
 	.cuadro2
 		background: white
 		z-index: 999999999999
 		position: relative
-		margin-top: 20vh
+		
 		display: flex
 		
 		margin-bottom: 10vh
