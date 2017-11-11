@@ -1,5 +1,6 @@
 
-.pagine
+
+.pagPosada
 	h1,h2,h3,h4,h5,p
 		font-family: 'Josefin Sans', sans-serif;
 	svg
@@ -7,13 +8,14 @@
 		+for_breakpoint(mobile)
 			padding-left: 15px
 		
+	background white !important	
 #posadaHome
 	background-image url('../img/fondo-posadas.png')
 	background-position top center
 	background-repeat no-repeat
 	background-size: auto 100%
 	min-height: 100vh
-	z-index: -9999999999999!important
+	z-index: 1 !important
 	position: relative
 	display: flex
 	.aling
@@ -42,7 +44,10 @@
 		position: absolute
 		width: 100%
 		height: 100%
-
+#PaquetesPosadas
+	padding-top: 20vh 
+	+for_breakpoint(mobile)
+		padding-top: 10vh 
 #PaquetesPosadas, #DrinksPosada
 	background-image url('../img/posadas02.png')
 	background-position top center
@@ -51,12 +56,9 @@
 	letter-spacing 1px
 	text-align left
 	min-height: 100vh
-	z-index -2
 	position: relative
 	display: block
-	padding-top: 20vh
-	+for_breakpoint(mobile)
-		padding-top: 10vh
+	
 	.cuadro2
 		background: white
 		z-index: 999999999999
@@ -221,5 +223,79 @@
 		background-image: url('../img/lineas.png')
 		background-size: 100% 100%
 
-	
-	
+.ContactoPosadas
+	margin-top 70px
+	background white
+	height 100vh
+	.reservas
+		padding 20px
+		h2
+			color black
+			border-bottom 1px solid white !important
+			width 225px
+			float none
+			margin 0 auto
+			padding 15px
+		label
+			font-family 'raleway' !important
+			font-weight bold
+		input[type="text"],
+		input[type="tel"],
+		input[type="email"],
+		textarea
+			border-bottom 1px solid black
+			font-family 'raleway'
+			background rgba(255, 255, 255, 0)
+			border none
+			border-bottom 1px solid black
+			box-shadow none !important
+		input[type="date"],
+		input[type="time"],
+		input[type="number"]
+			background rgba(255, 255, 255, 0)
+			border none
+			width 50%
+			box-shadow none !important
+			font-family: 'Josefin Sans', sans-serif;
+			+for_breakpoint(mobile)
+				width 100%
+		input[type="number"]
+			border-bottom 1px solid black		
+		input,
+		textarea,
+		label
+			font-size 16px !important
+			color black
+			max-width 100% !important
+			padding 10px
+			&::placeholder
+				color black
+				font-weight bold
+		.buttonReserva
+			display block
+			text-align center
+			button
+				border 1px solid black
+				color black
+				padding 15px 32px
+				text-align center
+				text-decoration none
+				font-size 16px
+				cursor pointer
+				font-weight bold
+		div.row
+			margin-top 5px
+			padding 10px
+			.center-block
+				text-align center
+				padding 10px
+		input[type="text"]:focus,
+		input[type="number"]:focus,
+		input[type="email"]:focus,
+		input[type="tel"]:focus,
+		input[type="date"]:focus,
+		input[type="time"]:focus,
+		textarea:focus
+			border-bottom 1px solid black
+			box-shadow none !important
+			outline none !important

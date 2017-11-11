@@ -9,217 +9,267 @@
 
 {% block SiteContent %}
 
-	<div class="pagine">
-		<header class="section" id="posadaHome">
-			<img src="img/logo-posada.png" class="aling img-responsive" alt="">
-			
-		</header>
-		
-			<div class="container">
-				<div class="row">
-						<div class="col-xs-12 hidden-xs col-sm-12">
-					<div class="cuadro">
-						<img src="img/lineas.png" class="img-responsive ima" alt="">
-						<h1 class="text-center"> PAQUETES DE COMIDA</h1>
-					</div>
+{% if titulo == "Posadas" %}
+<div class="pagPosada">	
+	<header class="section" id="posadaHome">
+		<img src="img/logo-posada.png" class="aling img-responsive" alt="">
+	</header>
+	
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 hidden-xs col-sm-12">
+				<div class="cuadro">
+					<img src="img/lineas.png" class="img-responsive ima" alt="">
+					<h1 class="text-center"> PAQUETES DE COMIDA</h1>
 				</div>
 			</div>
 		</div>
-		<div class="section" id="PaquetesPosadas">
-			<div class="container">
-				<div class="row">
-					<div class="col-xs-12 col-sm-4  cuadro2">
-						<div class="container">
-							<div class="row">
-								<div class="titulo">
-									<h2 class="text-center">MENU UNO</h2>
-								</div>
-								<div class="content-1">
-									<h3 class="text-center">ENTRADA</h3>
-									<h5 class="text-center">Ensalada de espinaca baby</h5>
-									<p class="text-center">Pasas, Almendras, Queso de cabra y Aderezo de frutos rojos</p>
-									<h4 class="opcion">o</h4>
-									<h5 class="text-center">Elotes asados</h5>
-									<p class="text-center">Servidos con chile Tajín y queso parmesano.</p>
-								</div>
-								<div class="content-2">
-									<h3 class="text-center">PLATO FUERTE</h3>
-									<h5 class="text-center">Pechuga Carelli</h5>
-									<p class="text-center">Pechuga de pollo relleno de queso panela y pasas. Cocinado al alto vacío a 60°C, servida con cebada a la hoja Santa y reducción de tamarindo.</p>
-									<h4 class="opcion">o</h4>
-									<h5 class="text-center">Rib Eye estilo Japonés</h5>
-									<p class="text-center">Rib Eye a cocción media en salsa  Sukiyaki. Servido con nopales y cebolla morada.</p>
-								</div>
-								<div class="content-3">
-									<h3 class="text-center">POSTRE</h3>
-									<p class="text-center">Pastel de elote</p>
-									<h5 class="text-center">Pan de elote con crema de rompope y palomitas caramelizadas.</h5>
-									<h4 class="opcion">o</h4>
-									<p class="text-center">Garipato</p>
-									<h5 class="text-center">Panqué a base de mantequilla cubierto con gragea blanca, acompañado con crema de café; servido en nuestro simbólico pato.</h5>
-								</div>
-								<div class="col-xs-6"><img src="img/carne.png" class="posada-img" alt=""></div>
-								<div class="col-xs-6"><h4>$250<span> <br> Por persona</span></h4></div>
+	</div>	
+	<div class="section" id="PaquetesPosadas">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 col-sm-4  cuadro2">
+					<div class="container">
+						<div class="row">
+							<div class="titulo">
+								<h2 class="text-center">MENU UNO</h2>
 							</div>
-						</div>
-					</div>
-					<div class="col-xs-12 col-sm-4 cuadro2">
-						<div class="container">
-							<div class="row">
-								<div class="titulo">
-									<h2 class="text-center">MENU dos</h2>
-								</div>
-								<div class="content-1">
-									<h3 class="text-center">ENTRADA</h3>
-									<h5 class="text-center">Tártara de Atún</h5>
-									<p class="text-center">Atún cortado al  momento, marinado en salsa de soya, champiñón y cebolla morada. Servido sobre un chicharrón de camarón.</p>
-									<h4 class="opcion">o</h4>
-									<h5 class="text-center"> Ensalada de espinaca baby</h5>
-									<p class="text-center">Pasas, Almendras, Queso de cabra y Aderezo de frutos rojos</p>
-								</div>
-								<div class="content-2">
-									<h3 class="text-center">PLATO FUERTE</h3>
-									<h5 class="text-center">Pasta Capriccio </h5>
-									<p class="text-center">Spaghetti preparado con tocino, queso de cabra, mozzarella, parmesano, con un toque de aceite de trufa blanca.</p>
-									<h4 class="opcion">o</h4>
-									<h5 class="text-center">Carnitas de pato</h5>
-									<p class="text-center"> Pato desmigado, acompañado de chiles toreados, cebolla asada y nopal, guacamole y tortillas de maíz.</p>
-								</div>
-								<div class="content-3">
-									<h3 class="text-center">POSTRE</h3>
-									<h5 class="text-center">Apfelkuchen</h5>
-									<p>Tarta de manzana tradicional alemana, servida con helado de vainilla aldo’s.</p>
-									<h4 class="opcion">o</h4>
-									<h5 class="text-center">Salami de chocolate</h5>
-								</div>
-								<p>El chocolate crujiente en forma de salami, servido con queso crema y mermelada casera.</p>
-								<h4>$350<span> <br>Por persona</span></h4>
-							</div>
-						</div>
-					</div>
-					<div class="col-xs-12 col-sm-4 cuadro2">
-						<div class="container">
-							<div class="row">
-								<div class="titulo">
-									<h2 class="text-center">MENU veggie</h2>
-								</div>
-								<div class="content-1">
-									<h3 class="text-center">ENTRADA</h3>
-									<h5 class="text-center">Ensalada de espinaca baby </h5>
-									<p class="text-center">Pasas, Almendras, Queso de cabra y Aderezo de frutos rojos</p>
-									<h4 class="opcion">o</h4>
-									<h5 class="text-center">Elotes asados</h5>
-									<p class="text-center">Servidos con chile Tajín y queso parmesano.</p>
-								</div>
-								<div class="content-2">
-									<h3 class="text-center">PLATO FUERTE</h3>
-									<h5 class="text-center">Risotto</h5>
-									<p class="text-center"> Arroz “Carnaroli”, mezcla de setas y queso parmesano.</p>
-									<h4 class="opcion">o</h4>
-									<h5 class="text-center">Tacos al pastor veganos</h5>
-									<p class="text-center"> Tortilla de maíz hecha a mano con un bistek de chorizo de soya y adobo. Acompañado de una mermelada de piña y cebolla morada.</p>
-								</div>
-								<div class="content-3">
-									<h3 class="text-center">POSTRE</h3>
-									<h5 class="text-center">Pastel de elote</h5>
-									<p class="text-center">Pan de elote con crema de rompope y palomitas caramelizadas.</p>
-									<h4 class="opcion">o</h4>
-									<h5 class="text-center">Salami de chocolate</h5>
-									<p class="text-center">El chocolate crujiente en forma de salami, servido con queso crema y mermelada casera.</p>
-								</div>
-								<div class="col-xs-6"><img src="img/hongos.png" class="posada-img2" alt=""></div>
-								<div class="col-xs-6"><h4>$220<span> <br> Por persona</span></h4></div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		{#<div class="section">
-			<div class="container">
-				<div class="row">
-					<div class="col-xs-12 col-sm-4 col-sm-offset-4 cuadro22">
-						<div class="container">
-							<div class="row">
-								<div class="titulo">
-									<h2 class="text-center">PAQUETE veggie</h2>
-								</div>
+							<div class="content-1">
 								<h3 class="text-center">ENTRADA</h3>
-								<p class="text-center">Ensalada de espinaca baby o elotes asados</p>
-								<h3 class="text-center">PLATO FUERTE</h3>
-								<p class="text-center">Ensalada de espinaca baby o elotes asados</p>
-								<h3 class="text-center">POSTRE</h3>
-								<p class="text-center">Ensalada de espinaca baby o elotes asados</p>
-								<div class="col-xs-6"><img src="img/hojas.png" class="posada-img" alt=""></div>
-								<div class="col-xs-6"><h4>$220<span> <br>Por persona</span></h4></div>
+								<h5 class="text-center">Ensalada de espinaca baby</h5>
+								<p class="text-center">Pasas, Almendras, Queso de cabra y Aderezo de frutos rojos</p>
+								<h4 class="opcion">o</h4>
+								<h5 class="text-center">Elotes asados</h5>
+								<p class="text-center">Servidos con chile Tajín y queso parmesano.</p>
 							</div>
+							<div class="content-2">
+								<h3 class="text-center">PLATO FUERTE</h3>
+								<h5 class="text-center">Pechuga Carelli</h5>
+								<p class="text-center">Pechuga de pollo relleno de queso panela y pasas. Cocinado al alto vacío a 60°C, servida con cebada a la hoja Santa y reducción de tamarindo.</p>
+								<h4 class="opcion">o</h4>
+								<h5 class="text-center">Rib Eye estilo Japonés</h5>
+								<p class="text-center">Rib Eye a cocción media en salsa  Sukiyaki. Servido con nopales y cebolla morada.</p>
+							</div>
+							<div class="content-3">
+								<h3 class="text-center">POSTRE</h3>
+								<p class="text-center">Pastel de elote</p>
+								<h5 class="text-center">Pan de elote con crema de rompope y palomitas caramelizadas.</h5>
+								<h4 class="opcion">o</h4>
+								<p class="text-center">Garipato</p>
+								<h5 class="text-center">Panqué a base de mantequilla cubierto con gragea blanca, acompañado con crema de café; servido en nuestro simbólico pato.</h5>
+							</div>
+							<div class="col-xs-6"><img src="img/carne.png" class="posada-img" alt=""></div>
+							<div class="col-xs-6"><h4>$250<span> <br> Por persona</span></h4></div>
 						</div>
 					</div>
 				</div>
-			</div>
-		</div>#}
-		<div class="section " id="DrinksPosada">
-			<div class="container">
-				<div class="row">
-					<div class="col-xs-12 cuadro21">
-						<div class="container">
-							<div class="row">
-								<div class="col-xs-12 col-sm-12 hidden-xs  bebidas">
-									<h1 class="text-center"> PAQUETES DE BEBIDA</h1>
-								</div>
-								<div class="col-xs-12 col-sm-4">
-									<div class="titulo">
-										<h2 class="text-center">PAQUETE UNO</h2>
-									</div>
-									<h3 class="text-center">INCLUYE</h3>
-									<br>
-									<p class="text-center">Dos destilados nacionales</p>
-									<br>
-									<p class="text-center">Doce mezcladores</p>
-									<p class="text-center">(Doce refrescos de 355ml c/u</p>
-									<p class="text-center">o tres jarras de jugo)</p>
-									<br>
-									<h5>$1,800</h5>
-								</div>
-								<div class="col-xs-12 col-sm-4">
-									<div class="titulo">
-										<h2 class="text-center">PAQUETE DOS</h2>
-									</div>
-									<h3 class="text-center">INCLUYE</h3>
-									<br>
-									<p class="text-center">Dos destilados (uno nacional y uno importado)</p>
-									<br>
-									<p class="text-center">Doce mezcladores</p>
-											<p class="text-center">(Doce refrescos de 355ml c/u</p>
-											<p class="text-center">o tres jarras de jugo)</p>
-											<br>
-											<p class="text-center">Veinte Jelly Shots (sabor especial de la casa)</p>
-													<p class="text-center">Diez cervezas de barril (vaso 12oz)</p>
-									<h5>$2,800</h5>
-								</div>
-								<div class="col-xs-12 col-sm-4">
-									<div class="titulo">
-										<h2 class="text-center">PAQUETE TRES</h2>
-									</div>
-									<h3 class="text-center">INCLUYE</h3>
-									<br>
-									<p class="text-center">Dos destilados (uno nacional y uno importado)</p>
-									<br>
-									<p class="text-center">Doce mezcladores</p>
-									<p class="text-center">(Doce refrescos de 355ml c/u</p>
-									<p class="text-center">o tres jarras de jugo)</p>
-									<br>
-									<p class="text-center">Veinte Jelly Shots (sabor especial de la casa)</p>
-									<p class="text-center">Veinte cervezas de barril (vaso 12oz)</p>
-									<h5>$3,800</h5>
-								</div>
+				<div class="col-xs-12 col-sm-4 cuadro2">
+					<div class="container">
+						<div class="row">
+							<div class="titulo">
+								<h2 class="text-center">MENU dos</h2>
 							</div>
+							<div class="content-1">
+								<h3 class="text-center">ENTRADA</h3>
+								<h5 class="text-center">Tártara de Atún</h5>
+								<p class="text-center">Atún cortado al  momento, marinado en salsa de soya, champiñón y cebolla morada. Servido sobre un chicharrón de camarón.</p>
+								<h4 class="opcion">o</h4>
+								<h5 class="text-center"> Ensalada de espinaca baby</h5>
+								<p class="text-center">Pasas, Almendras, Queso de cabra y Aderezo de frutos rojos</p>
+							</div>
+							<div class="content-2">
+								<h3 class="text-center">PLATO FUERTE</h3>
+								<h5 class="text-center">Pasta Capriccio </h5>
+								<p class="text-center">Spaghetti preparado con tocino, queso de cabra, mozzarella, parmesano, con un toque de aceite de trufa blanca.</p>
+								<h4 class="opcion">o</h4>
+								<h5 class="text-center">Carnitas de pato</h5>
+								<p class="text-center"> Pato desmigado, acompañado de chiles toreados, cebolla asada y nopal, guacamole y tortillas de maíz.</p>
+							</div>
+							<div class="content-3">
+								<h3 class="text-center">POSTRE</h3>
+								<h5 class="text-center">Apfelkuchen</h5>
+								<p>Tarta de manzana tradicional alemana, servida con helado de vainilla aldo’s.</p>
+								<h4 class="opcion">o</h4>
+								<h5 class="text-center">Salami de chocolate</h5>
+							</div>
+							<p>El chocolate crujiente en forma de salami, servido con queso crema y mermelada casera.</p>
+							<h4>$350<span> <br>Por persona</span></h4>
+						</div>
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-4 cuadro2">
+					<div class="container">
+						<div class="row">
+							<div class="titulo">
+								<h2 class="text-center">MENU veggie</h2>
+							</div>
+							<div class="content-1">
+								<h3 class="text-center">ENTRADA</h3>
+								<h5 class="text-center">Ensalada de espinaca baby </h5>
+								<p class="text-center">Pasas, Almendras, Queso de cabra y Aderezo de frutos rojos</p>
+								<h4 class="opcion">o</h4>
+								<h5 class="text-center">Elotes asados</h5>
+								<p class="text-center">Servidos con chile Tajín y queso parmesano.</p>
+							</div>
+							<div class="content-2">
+								<h3 class="text-center">PLATO FUERTE</h3>
+								<h5 class="text-center">Risotto</h5>
+								<p class="text-center"> Arroz “Carnaroli”, mezcla de setas y queso parmesano.</p>
+								<h4 class="opcion">o</h4>
+								<h5 class="text-center">Tacos al pastor veganos</h5>
+								<p class="text-center"> Tortilla de maíz hecha a mano con un bistek de chorizo de soya y adobo. Acompañado de una mermelada de piña y cebolla morada.</p>
+							</div>
+							<div class="content-3">
+								<h3 class="text-center">POSTRE</h3>
+								<h5 class="text-center">Pastel de elote</h5>
+								<p class="text-center">Pan de elote con crema de rompope y palomitas caramelizadas.</p>
+								<h4 class="opcion">o</h4>
+								<h5 class="text-center">Salami de chocolate</h5>
+								<p class="text-center">El chocolate crujiente en forma de salami, servido con queso crema y mermelada casera.</p>
+							</div>
+							<div class="col-xs-6"><img src="img/hongos.png" class="posada-img2" alt=""></div>
+							<div class="col-xs-6"><h4>$220<span> <br> Por persona</span></h4></div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
+
+
+
+	<div class="section" id="DrinksPosada">	
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12 cuadro21">
+					<div class="container">
+						<div class="row">
+							<div class="col-xs-12 col-sm-12 hidden-xs  bebidas">
+								<h1 class="text-center"> PAQUETES DE BEBIDA</h1>
+							</div>
+							<div class="col-xs-12 col-sm-4">
+								<div class="titulo">
+									<h2 class="text-center">PAQUETE UNO</h2>
+								</div>
+								<h3 class="text-center">INCLUYE</h3>
+								<br>
+								<p class="text-center">Dos destilados nacionales</p>
+								<br>
+								<p class="text-center">Doce mezcladores</p>
+								<p class="text-center">(Doce refrescos de 355ml c/u</p>
+								<p class="text-center">o tres jarras de jugo)</p>
+								<br>
+								<h5>$1,800</h5>
+							</div>
+							<div class="col-xs-12 col-sm-4">
+								<div class="titulo">
+									<h2 class="text-center">PAQUETE DOS</h2>
+								</div>
+								<h3 class="text-center">INCLUYE</h3>
+								<br>
+								<p class="text-center">Dos destilados (uno nacional y uno importado)</p>
+								<br>
+								<p class="text-center">Doce mezcladores</p>
+								<p class="text-center">(Doce refrescos de 355ml c/u</p>
+								<p class="text-center">o tres jarras de jugo)</p>
+								<br>
+								<p class="text-center">Veinte Jelly Shots (sabor especial de la casa)</p>
+								<p class="text-center">Diez cervezas de barril (vaso 12oz)</p>
+								<h5>$2,800</h5>
+							</div>
+							<div class="col-xs-12 col-sm-4">
+								<div class="titulo">
+									<h2 class="text-center">PAQUETE TRES</h2>
+								</div>
+								<h3 class="text-center">INCLUYE</h3>
+								<br>
+								<p class="text-center">Dos destilados (uno nacional y uno importado)</p>
+								<br>
+								<p class="text-center">Doce mezcladores</p>
+								<p class="text-center">(Doce refrescos de 355ml c/u</p>
+								<p class="text-center">o tres jarras de jugo)</p>
+								<br>
+								<p class="text-center">Veinte Jelly Shots (sabor especial de la casa)</p>
+								<p class="text-center">Veinte cervezas de barril (vaso 12oz)</p>
+								<h5>$3,800</h5>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+				
+		</div>
+
+
+	</div>	
+	<div class="container ContactoPosadas">
+			<form class="reservas" action="https://submit.jotform.co/submit/73126515833859/" method="post" name="form_73126515833859" id="73126515833859" accept-charset="utf-8">
+
+				<h2>RESERVAS</h2>
+				<input type="hidden" name="formID" value="73126515833859" >
+				<div class="form-group row">	
+					<div class="col-md-4" data-type="control_fullname" id="id_3">
+						{# <label>Nombre Completo</label> #}
+						<input type="text" id="input_3" name="q3_nombreCompleto" data-type="input-textbox" class="form-control" size="20" value="" data-component="textbox" required="" placeholder="Nombre Completo" />
+					</div>
+					<div class="col-md-4" data-type="control_textbox" id="id_6">
+						{# <label>Correo Electronico</label> #}
+						<input type="email" id="input_6" name="q6_correoElectronico" data-type="input-textbox" class="form-control" size="20" value="" data-component="textbox" placeholder="Correo Electronico">
+					</div>	
+						<div class="col-md-4" data-type="control_textbox" id="id_4">
+					{# 	<label>Telefono</label> #}
+						<input type="tel" id="input_4" name="q4_telefono4" data-type="input-textbox" class="form-control" value="" data-component="textbox" placeholder="Telefono" >
+					</div>	
+				</div>
+				<div class="form-inline row center-block">
+				
+					<div class="col-md-4 col-xs-12 center-block" data-type="control_textbox" id="id_7">
+						<label>Horas</label>
+						<input type="time" id="input_7" name="q7_hora" data-type="input-textbox" class="form-control" value="" data-component="textbox" placeholder="Horas">
+					</div>
+					<div class="col-md-4 col-xs-12 center-block" data-type="control_textbox" id="id_8">
+						<label>Fecha</label>
+						<input type="date" id="input_8" name="q8_fecha" data-type="input-textbox" class="form-control" value="" data-component="textbox">
+					</div>
+					<div class="col-md-4 col-xs-12 center-block" data-type="control_number" id="id_9">
+						<label class="visible-sm-inline-block">No.Personas</label>
+						<label class="visible-xs-block">No.Personas</label>  
+						<input type="number" id="input_9" name="q9_nopersonas" data-type="input-number" class="form-control"  value="" min="1" max="24" data-component="number" placeholder="No.Personas">
+					</div>
+				</div>
+				<div class="form-group row" data-type="control_textarea" id="id_10">
+					<label>Comentarios</label>
+					<div class="col-sm-12">
+						<textarea id="input_10" class="form-control" name="q10_comentario" cols="40" rows="5" data-component="textarea"></textarea>
+					</div>
+				</div>
+				<div class="form-group row buttonReserva" data-type="control_button" id="id_2">
+					<button id="input_2" type="submit" class="form-submit-button" data-component="button">
+						ENVIAR
+					</button>
+				</div>
+
+				<div style="display:none">
+					<input type="text" name="website" value="">
+				</div>
+				<input type="hidden" id="simple_spc" name="simple_spc" value="73126515833859">
+			</form>
+		</div>	
+</div>
+{% else %}
+<div class="section" id="DrinksPosada">
+	<div class="row">
+		<div class="col-xs-12 col-sm-12">
+			<h1 class="text-center"> GRACIAS</h1>
+		</div>
+	</div>
+</div>
+
+
+
+{% endif %}
+
 {% endblock %}
 
 

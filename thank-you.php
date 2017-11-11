@@ -3,8 +3,8 @@
 require 'twig.php';
 
 $params = array(
-	'titulo' => "Posadas",
-	'posadas' => true,
+	'titulo' => "Hola Mundo",
+	'sliders' => $sliders,
 );
 
 echo $twig->render('posadas.twig', $params);
