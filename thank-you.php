@@ -3,7 +3,7 @@
 require 'twig.php';
 
 $params = array(
-	'titulo' => "Hola Mundo",
+	'titulo' => "Thanks",
 	'sliders' => $sliders,
 );
 
