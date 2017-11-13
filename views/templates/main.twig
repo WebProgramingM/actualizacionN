@@ -22,23 +22,23 @@
 </head>
 <body>
 	{# <div class="advicerotate"></div> #}
-	<nav id="menumain">
-		<a href={% if posada is defined%}"/"{% else %}"#"{% endif %} {% if posada is defined%}class="pagine"{% else %}class="menuhit"{% endif %} id="trigger-overlay">
-			<svg version="1.1"
-				xmlns="http://www.w3.org/2000/svg" xmlns:xlink=“http://www.w3.org/1999/xlink" xmlns:a=“http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
-				x="0px" y="0px" width="40" viewBox="0 0 235.2 383.1"
-				style="overflow:scroll;enable-background:new 0 0 235.2 383.1;" xml:space="preserve">
-				<path class="st0" d="M129.7,157.5l31.4-74.4c2.8-6.5-0.3-14.1-6.8-16.8c-6.5-2.8-14.1,0.3-16.8,6.8l-8.3,19.7v-80
-					c0-7.1-5.7-12.8-12.8-12.8c-7.1,0-12.8,5.7-12.8,12.8V97L87.3,59.2c-2.8-6.5-10.3-9.6-16.8-6.8c-6.5,2.8-9.6,10.3-6.8,16.8
-					l38.7,90.3c0.2,0.5,0.5,0.9,0.7,1.3L0,381.7h49.3l12.8-27.9l46.1-98.9v128.2h17.2V254.8l47.6,98.9l13.1,27.9h49.3L129.7,157.5z"/>
-				</svg>
-				{% if posada is defined%}
-				{% else %}
-				<i class="icon-bars"></i>
-				
-				{% endif %}
-			</a>
-		</nav>
+<nav id="menumain">
+        <a href={% if posada is defined%}"/"{% else %}"#"{% endif %} {% if posada is defined%}class="pagine"{% else %}class="menuhit"{% endif %} id="trigger-overlay">
+            <svg version="1.1"
+                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+                x="0px" y="0px" width="40" viewBox="0 0 235.2 383.1"
+                style="overflow:scroll;enable-background:new 0 0 235.2 383.1;" xml:space="preserve">
+                <path class="st0" d="M129.7,157.5l31.4-74.4c2.8-6.5-0.3-14.1-6.8-16.8c-6.5-2.8-14.1,0.3-16.8,6.8l-8.3,19.7v-80
+                    c0-7.1-5.7-12.8-12.8-12.8c-7.1,0-12.8,5.7-12.8,12.8V97L87.3,59.2c-2.8-6.5-10.3-9.6-16.8-6.8c-6.5,2.8-9.6,10.3-6.8,16.8
+                    l38.7,90.3c0.2,0.5,0.5,0.9,0.7,1.3L0,381.7h49.3l12.8-27.9l46.1-98.9v128.2h17.2V254.8l47.6,98.9l13.1,27.9h49.3L129.7,157.5z"/>
+                </svg>
+                {% if posada is defined%}
+                {% else %}
+                <i class="icon-bars"></i>
+                
+                {% endif %}
+            </a>
+        </nav>
 
 		{% block SiteContent %}
 		{% endblock %}
