@@ -54,7 +54,6 @@ svg
 	color white
 	letter-spacing 1px
 	text-align left
-	min-height: 100vh
 	position: relative
 	display: block
 	
@@ -158,14 +157,11 @@ svg
 			line-height: 150px
 			font-size: 40px		
 .cuadro22
-	background: #ffffff36
-	color $coal-nomads
+	background-color:rgba(255,255,255,0.7)
 	z-index: 999999999999
 	position: relative
-	margin-top: 8vh
+	margin: 8vh 0 8vh 0
 	display: flex
-	box-shadow: 3px 2px 12px rgba(0, 0, 0, 0.4)
-	z-index: 9999999999999
 	+for_breakpoint(mobile)
 		margin-bottom: 10vh
 	h1
@@ -218,6 +214,8 @@ svg
 	position: absolute
 	left -8vh
 	top 49px
+	+for_breakpoint(mobile)
+		top 20px
 #DrinksPosada
 	background-image url('../img/posadas03.png')
 	background-position center
