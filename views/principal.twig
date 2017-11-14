@@ -30,7 +30,7 @@
 				<img src="img/logo-posada.png" alt="Nomads Cocina & Barra">
 				</a>
 				<br>
-				<a href="posadas.php" class="btn btn-nomads">Reservisa el menu de posadas</a> <br>
+				<a href="posadas.php" class="btn btn-nomads">Revisa el menu de posadas</a> <br>
 				<a href="https://youtu.be/CUkB310N_8E" class="btn video" target="_blank">Mira el video <img src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDYwIDYwIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA2MCA2MDsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSIxNnB4IiBoZWlnaHQ9IjE2cHgiPgo8cGF0aCBkPSJNMzAsMEMxMy40NTgsMCwwLDEzLjQ1OCwwLDMwczEzLjQ1OCwzMCwzMCwzMHMzMC0xMy40NTgsMzAtMzBTNDYuNTQyLDAsMzAsMHogTTQ1LjU2MywzMC44MjZsLTIyLDE1ICBDMjMuMzk0LDQ1Ljk0MSwyMy4xOTcsNDYsMjMsNDZjLTAuMTYsMC0wLjMyMS0wLjAzOC0wLjQ2Ny0wLjExNkMyMi4yMDUsNDUuNzExLDIyLDQ1LjM3MSwyMiw0NVYxNWMwLTAuMzcxLDAuMjA1LTAuNzExLDAuNTMzLTAuODg0ICBjMC4zMjgtMC4xNzQsMC43MjQtMC4xNSwxLjAzMSwwLjA1OGwyMiwxNUM0NS44MzYsMjkuMzYsNDYsMjkuNjY5LDQ2LDMwUzQ1LjgzNiwzMC42NCw0NS41NjMsMzAuODI2eiIgZmlsbD0iI2JmODIwNCIvPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K" /></a>
 				<br>
 				<br>
@@ -44,26 +44,29 @@
 						<div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-6">
 							<h2>ME<br>&nbsp;&nbsp;NÚ</h2>
 							<p>Una experiencia completamente nueva instalada en una atmósfera cálida y tropical. Inspirada en los viajeros a través de los sabores que recorren el mundo; le ponemos nuestra personalidad a cada una de nuestros platillos y bebidas.</p>
-							<a href="#Menue/menudisplay1" class="btn btn-nomads flat hidden-xs">Mirar el Menu</a> <br>
+							<a href="#Menue/menudisplay1" class="btn btn-nomads flat">Mirar el Menu</a> <br>
 							<a href="/menu-english-nomads-march.pdf">English Menu</a>
-							<a href="/menuexperience" class="btn btn-nomads flat visible-xs"><b>MENU</b> EXPERIENCE</a>
+							{#<a href="/menuexperience" class="btn btn-nomads flat visible-xs"><b>MENU</b> EXPERIENCE</a>#}
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="slide hidden-xs menudisplay fondo01" data-anchor="menudisplay1">
+			<div class="slide  menudisplay fondo01" data-anchor="menudisplay1">
 				{% include 'menu.twig' %}
 			</div>
-			<div class="slide hidden-xs menudisplay fondo02" data-anchor="menudisplay2">
+			<div class="slide  menudisplay fondo02" data-anchor="menudisplay2">
 				{% include 'menu2.twig' %}
 			</div>
-			<div class="slide hidden-xs menudisplay fondo03" data-anchor="menudrinks">
+			<div class="slide  menudisplay fondo02" data-anchor="menupostres">
+					{% include 'menupostres.twig' %}
+			</div>
+			<div class="slide  menudisplay fondo03" data-anchor="menudrinks">
 				{% include 'menudrinks.twig' %}
 			</div>
-			<div class="slide hidden-xs menudisplay fondo04" data-anchor="menubowls">
+			<div class="slide  menudisplay fondo04" data-anchor="menubowls">
 				{% include 'menubowls.twig' %}
 			</div>
-			<div class="slide hidden-xs menudisplay fondo04" data-anchor="menusingature">
+			<div class="slide  menudisplay fondo04" data-anchor="menusingature">
 				{% include 'menusignature.twig' %}
 			</div>
 		</div>
