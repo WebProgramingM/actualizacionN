@@ -3,7 +3,7 @@
 require 'twig.php';
 
 $params = array(
-	'titulo' => "Posadas",
+	'titulo' => "cena",
 	'posada' => true,
 );
 
