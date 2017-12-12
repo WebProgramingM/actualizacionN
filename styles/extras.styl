@@ -23,6 +23,39 @@ svg
 		-webkit-transform translateX(-50%)
 		transform translateX,Y (-50%)
 		position: absolute
+.boton
+	background: #FBB620
+	padding: 15px 86px;
+	color: black
+#cenaHome
+	font-family: 'Lato', sans-serif;
+	background-image url('../img/cena_ano_nuevo.png')
+	background-position top center
+	background-repeat no-repeat
+	background-size: 100%
+	min-height: 100vh
+	z-index: 0 !important
+	position: relative
+	display: flex
+	+for_breakpoint(mobile)
+		background-image url('../img/cena_ano_nuevo_respo.png')
+	.aling
+		top 10%
+		left 50%
+		-webkit-transform translateX(-50%)
+		transform translateX,Y (-50%)
+		position: absolute
+	h3
+		color: white
+		padding-top 20px
+		font-size: 30px
+		font-weight: 700
+		text-shadow: 3px 2px 12px rgba(0, 0, 0, 0.4)
+	h5
+		color white
+		font-size: 20px
+		font-weight: 400
+		text-shadow: 3px 2px 12px rgba(0, 0, 0, 0.4)
 .tipo
 	font-size: 15px	!important
 .cuadro
@@ -299,6 +332,105 @@ svg
 			border-bottom 1px solid black
 			box-shadow none !important
 			outline none !important
+.ContactoPosadas_c
+	margin-top 70px
+	background black
+	height 100vh
+	z-index: -2
+	.reservas
+		padding 20px
+		h2
+			color white
+			width 225px
+			float none
+			margin 0 auto
+			padding 15px
+		label
+			font-family 'raleway' !important
+			font-weight bold
+		input[type="text"],
+		input[type="tel"],
+		input[type="email"],
+		textarea
+			font-family 'raleway'
+			background rgba(255, 255, 255, 0)
+			border none
+			box-shadow none !important
+			border-radius: 0
+			border-bottom 1px solid white
+		input[type="date"],
+		input[type="time"],
+		input[type="number"]
+			background rgba(255, 255, 255, 0)
+			border none
+			width 50%
+			border-radius: 0
+			border-bottom 1px solid white
+			box-shadow none !important
+			font-family: 'Josefin Sans', sans-serif;
+			+for_breakpoint(mobile)
+				width 100%
+				border-bottom 1px solid white
+		input[type="number"]
+			border-bottom 1px solid white	
+		input,
+		textarea,
+		label
+			font-size 16px !important
+			color white
+			max-width 100% !important
+			padding 10px
+			&::placeholder
+				color white
+				font-weight bold
+		.buttonReserva
+			display block
+			text-align center
+			button
+				background-color: #FBB620
+				border 1px solid black
+				border-radius: 0
+				color black
+				padding 15px 32px
+				text-align center
+				text-decoration none
+				font-size 16px
+				cursor pointer
+				font-weight bold
+		div.row
+			margin-top 5px
+			padding 10px
+			.center-block
+				text-align center
+				padding 10px
+		input[type="text"]:focus,
+		input[type="number"]:focus,
+		input[type="email"]:focus,
+		input[type="tel"]:focus,
+		input[type="date"]:focus,
+		input[type="time"]:focus,
+		textarea:focus
+			border-bottom 1px solid black
+			box-shadow none !important
+			outline none !important
 			
 .menuCena
 	background black
+footer
+	background: red
+	position fixed
+	bottom 0
+	left 0
+	width 100%
+.logo
+	align-items: center
+	display: flex
+.btn-res
+	background-color: white
+	color: #fff
+	border-radius: 30px
+	width: 80px
+
+	
+
+
