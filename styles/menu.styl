@@ -1,5 +1,51 @@
-
-
+#menucena
+	position absolute
+	left 91px
+	top 38px
+	z-index 99
+	+for_breakpoint(mobile)
+		top 10vh
+		left 50%
+		-webkit-transform: translateX(-50%)
+    	transform: translateX,Y -50%
+	.menuhit
+		svg
+			fill transparent
+		i
+			font-size 4rem
+			padding 7px 10px
+			float left
+			color $coal-nomads
+		&.show-1
+			svg
+				fill transparent
+			i
+				color $coal-nomads
+		&.show-2
+			svg
+				fill #c9c3a4
+			i
+				color #c9c3a4
+		&.show-3
+			svg
+				fill #bf8204
+			i
+				color #bf8204
+		&.show-4
+			svg
+				fill #EE0D3D
+			i
+				color #EE0D3D
+		&.show-5
+			svg
+				fill #D86E0F
+			i
+				color #D86E0F
+		&.show-6
+			svg
+				fill white
+			i
+				color white
 #menumain
 	position fixed
 	left 0

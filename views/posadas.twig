@@ -261,12 +261,15 @@
 {% elseif titulo == "cena" %}
 
 	<header class="section" id="cenaHome">
-		<div class="col-xs-12 col-sm-8 col-sm-offset-2">
+		<div class="col-xs-12 col-sm-4 col-sm-offset-4">
 			<div class="row">
-				<img src="img/logo2018.png" class=" img-responsive" alt="">
-				<a class="boton">MIRA EL MENÚ</a>
-				<h3>¡Recibe este año nuevo en el mejor lugar!</h3>
-				<h5>Además prueba nuestras delicias de temporada</h5>
+				
+				
+			</div>	
+			<div class="row bajo">
+					<a class="boton">MIRA EL MENÚ</a>
+				<h3 class="text-center">¡Recibe este año nuevo en el mejor lugar!</h3>
+				<h5 class="text-center">Además prueba nuestras delicias de temporada</h5>
 			</div>
 		</div>
 	</header>
@@ -380,7 +383,7 @@
 	</div>	
 </section>
 	
-
+<section class="contact">
 	<div class="container ContactoPosadas_c">
 		<form class="reservas" action="https://submit.jotform.co/submit/73446793004862/" method="post" name="form_73446793004862" id="73446793004862" accept-charset="utf-8">
 
@@ -433,10 +436,15 @@
 			</div>
 			<input type="hidden" id="simple_spc" name="simple_spc" value="73446793004862">
 		</form>
-	</div>		
-	<footer>
-		<a href="text-center" class="btn-res">reserva</a>
-	</footer>
+	</div>	
+	</section>	
+	{#<footer>
+		<div class="row">
+			<p>Costo por persona $899</p>
+			<p>Con Opción Vegetariana $750</p>
+			<a href="" class="btn-res">reserva</a>
+		</div>
+	</footer>#}
 {% else %}
 <div class="section" id="DrinksPosada">
 	<div class="container">

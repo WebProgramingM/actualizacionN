@@ -4,12 +4,12 @@
 	background white !important	
 h1,h2,h3,h4,h5,p
 	font-family: 'Josefin Sans', sans-serif;
-svg
-	fill #efb141
-	+for_breakpoint(mobile)
-		padding-left: 15px	
 #posadaHome
 	background-image url('../img/fondo-posadas.png')
+	-webkit-background-size: 100% 100%           /* Safari 3.0 */
+	-moz-background-size: 100% 100%           /* Gecko 1.9.2 (Firefox 3.6) */
+	-o-background-size: 100% 100%           /* Opera 9.5 */
+	background-size: 100% 100%  
 	background-position top center
 	background-repeat no-repeat
 	background-size: auto 100%
@@ -27,36 +27,50 @@ svg
 	background: #FBB620
 	padding: 15px 86px;
 	color: black
+	box-shadow: 3px 2px 12px rgba(0, 0, 0, 0.4)
 #cenaHome
 	font-family: 'Lato', sans-serif;
 	background black
-	background-image url('../img/cena_ano_nuevo.png')
+	background-image url('../img/cena.png')
 	background-position top center
 	background-repeat no-repeat
-	background-size: 100%
+	background-size: cover
 	min-height: 100vh
 	z-index: 0 !important
 	position: relative
 	display: flex
 	+for_breakpoint(mobile)
 		background-image url('../img/cena_ano_nuevo_respo.png')
+	.logo2
+		+for_breakpoint(tablet)
+			padding-top:  20vh	
+		+for_breakpoint(mobile)
+			padding-top:  20vh	
 	.aling
 		top 10%
 		left 50%
 		-webkit-transform translateX(-50%)
 		transform translateX,Y (-50%)
 		position: absolute
-	h3
-		color: white
-		padding-top 20px
-		font-size: 30px
-		font-weight: 700
-		text-shadow: 3px 2px 12px rgba(0, 0, 0, 0.4)
-	h5
-		color white
-		font-size: 20px
-		font-weight: 400
-		text-shadow: 3px 2px 12px rgba(0, 0, 0, 0.4)
+	.bajo
+		bottom: 80px
+		position: absolute	
+		h3
+			color: white
+			font-size: 30px
+			font-weight: 700
+			text-shadow: 3px 2px 12px rgba(0, 0, 0, 0.4)
+		h5
+			color white
+			font-size: 20px
+			font-weight: 400
+			text-shadow: 3px 2px 12px rgba(0, 0, 0, 0.4)
+		.boton
+			background: #FBB620
+			padding: 15px 86px;
+			color: black
+			box-shadow: 3px 2px 12px rgba(0, 0, 0, 0.4)
+			margin-bottom: 80px
 .tipo
 	font-size: 15px	!important
 .cuadro
@@ -349,8 +363,6 @@ svg
 	background-size: contain
 	
 .ContactoPosadas_c
-	margin-top 70px
-	background black
 	height 100vh
 	z-index: -2
 	.reservas
@@ -437,15 +449,21 @@ footer
 	bottom 0
 	left 0
 	width 100%
+	padding: 15px
+	.btn-res
+		background-color: white
+		color: black
+		border-radius: 30px
+		padding: 4px
+		position: relative
+		float: right 
 .logo
 	align-items: center
 	display: flex
-.btn-res
-	background-color: white
-	color: #fff
-	border-radius: 30px
-	width: 80px
 
+.contact
+	background-image: url('/img/footer.png')
+	background-size: cover
 	
 
 
