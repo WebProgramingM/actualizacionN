@@ -34,6 +34,9 @@ h1,h2,h3,h4,h5,p
 	z-index: 0 !important
 	position: relative
 	display: flex
+	p
+		color white
+		padding: 70px
 	+for_breakpoint(mobile)
 		background-image url('../img/cena_respo.png')
 	.logo2
@@ -49,7 +52,9 @@ h1,h2,h3,h4,h5,p
 		position: absolute
 	.bajo
 		position: relative
-		padding-top: 70vh
+		padding-top: 50vh
+		+for_breakpoint(mobile)
+			padding-top: 70vh
 		.boton
 			background: #FBB620
 			padding: 15px 86px;
@@ -64,7 +69,7 @@ h1,h2,h3,h4,h5,p
 		h5
 			color white
 			font-size: 20px
-			font-weight: 400
+			font-weight: 400!important
 			text-shadow: 3px 2px 12px rgba(0, 0, 0, 0.4)
 		
 .tipo
@@ -366,9 +371,9 @@ h1,h2,h3,h4,h5,p
 .menuCena
 	background black
 	background-image url('/img/new_year.png')
-	background-position top center
+	background-position center center
 	background-repeat no-repeat
-	background-size: contain
+	background-size: 100%
 	color white
 	h1, h2, h3, h4, h5, p,small
 		font-family: 'Lato', sans-serif !important;
@@ -425,10 +430,11 @@ footer
 		z-index: -2
 		min-height: 100vh
 		.reservas
-			padding 20px
+			padding-top: 15vh
 			h2
 				color white
 				text-align: center
+				padding-bottom: 50px
 			label
 				font-family 'raleway' !important
 				font-weight bold
@@ -458,12 +464,11 @@ footer
 			input[type="number"]
 				border-bottom 1px solid white	
 			input,
-			textarea,
 			label
 				font-size 16px !important
 				color white
 				max-width 100% !important
-				padding 10px
+				padding 30px
 			+for_breakpoint(mobile)
 				label
 					padding: 10px!important
@@ -476,6 +481,7 @@ footer
 			.buttonReserva
 				display block
 				text-align center
+				padding-top: 30px
 				button
 					background-color: #FBB620
 					border 1px solid black

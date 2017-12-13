@@ -121,7 +121,13 @@ a
 			top: 28vh
 		img
 			max-width 80vw
-
+			max-height: 60vh
+			+for_breakpoint(desktop)
+				padding-top: 90px
+			+for_breakpoint(tablet)
+				padding-top: 90px
+.home
+	padding-top: 15vh
 #section1
 	color white
 	.homenu
