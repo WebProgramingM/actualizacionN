@@ -23,16 +23,11 @@ h1,h2,h3,h4,h5,p
 		-webkit-transform translateX(-50%)
 		transform translateX,Y (-50%)
 		position: absolute
-.boton
-	background: #FBB620
-	padding: 15px 86px;
-	color: black
-	box-shadow: 3px 2px 12px rgba(0, 0, 0, 0.4)
 #cenaHome
 	font-family: 'Lato', sans-serif;
 	background black
 	background-image url('../img/cena.png')
-	background-position top center
+	background-position center
 	background-repeat no-repeat
 	background-size: cover
 	min-height: 100vh
@@ -40,7 +35,7 @@ h1,h2,h3,h4,h5,p
 	position: relative
 	display: flex
 	+for_breakpoint(mobile)
-		background-image url('../img/cena_ano_nuevo_respo.png')
+		background-image url('../img/cena_respo.png')
 	.logo2
 		+for_breakpoint(tablet)
 			padding-top:  20vh	
@@ -53,24 +48,25 @@ h1,h2,h3,h4,h5,p
 		transform translateX,Y (-50%)
 		position: absolute
 	.bajo
-		bottom: 80px
-		position: absolute	
+		position: relative
+		padding-top: 70vh
+		.boton
+			background: #FBB620
+			padding: 15px 86px;
+			color: black
+			box-shadow: 3px 2px 12px rgba(0, 0, 0, 0.4)
 		h3
 			color: white
 			font-size: 30px
 			font-weight: 700
+			margin-top: 90px
 			text-shadow: 3px 2px 12px rgba(0, 0, 0, 0.4)
 		h5
 			color white
 			font-size: 20px
 			font-weight: 400
 			text-shadow: 3px 2px 12px rgba(0, 0, 0, 0.4)
-		.boton
-			background: #FBB620
-			padding: 15px 86px;
-			color: black
-			box-shadow: 3px 2px 12px rgba(0, 0, 0, 0.4)
-			margin-bottom: 80px
+		
 .tipo
 	font-size: 15px	!important
 .cuadro
@@ -396,85 +392,7 @@ h1,h2,h3,h4,h5,p
 		+for_breakpoint(mobile)	
 			float none
 			margin 0 auto 
-.ContactoPosadas_c
-	height 100vh
-	z-index: -2
-	.reservas
-		padding 20px
-		h2
-			color white
-			width 225px
-			float none
-			margin 0 auto
-			padding 15px
-		label
-			font-family 'raleway' !important
-			font-weight bold
-		input[type="text"],
-		input[type="tel"],
-		input[type="email"],
-		textarea
-			font-family 'raleway'
-			background rgba(255, 255, 255, 0)
-			border none
-			box-shadow none !important
-			border-radius: 0
-			border-bottom 1px solid white
-		input[type="date"],
-		input[type="time"],
-		input[type="number"]
-			background rgba(255, 255, 255, 0)
-			border none
-			width 50%
-			border-radius: 0
-			border-bottom 1px solid white
-			box-shadow none !important
-			font-family: 'Josefin Sans', sans-serif;
-			+for_breakpoint(mobile)
-				width 100%
-				border-bottom 1px solid white
-		input[type="number"]
-			border-bottom 1px solid white	
-		input,
-		textarea,
-		label
-			font-size 16px !important
-			color white
-			max-width 100% !important
-			padding 10px
-			&::placeholder
-				color white
-				font-weight bold
-		.buttonReserva
-			display block
-			text-align center
-			button
-				background-color: #FBB620
-				border 1px solid black
-				border-radius: 0
-				color black
-				padding 15px 32px
-				text-align center
-				text-decoration none
-				font-size 16px
-				cursor pointer
-				font-weight bold
-		div.row
-			margin-top 5px
-			padding 10px
-			.center-block
-				text-align center
-				padding 10px
-		input[type="text"]:focus,
-		input[type="number"]:focus,
-		input[type="email"]:focus,
-		input[type="tel"]:focus,
-		input[type="date"]:focus,
-		input[type="time"]:focus,
-		textarea:focus
-			border-bottom 1px solid black
-			box-shadow none !important
-			outline none !important
+
 			
 
 footer
@@ -498,6 +416,91 @@ footer
 .contact
 	background-image: url('/img/footer.png')
 	background-size: cover
+	.ContactoPosadas_c
+		z-index: -2
+		min-height: 100vh
+		.reservas
+			padding 20px
+			h2
+				color white
+				width 225px
+				float none
+				margin 0 auto
+				padding 15px
+			label
+				font-family 'raleway' !important
+				font-weight bold
+			input[type="text"],
+			input[type="tel"],
+			input[type="email"],
+			textarea
+				font-family 'raleway'
+				background rgba(255, 255, 255, 0)
+				border none
+				box-shadow none !important
+				border-radius: 0
+				border-bottom 1px solid white
+			input[type="date"],
+			input[type="time"],
+			input[type="number"]
+				background rgba(255, 255, 255, 0)
+				border none
+				width 50%
+				border-radius: 0
+				border-bottom 1px solid white
+				box-shadow none !important
+				font-family: 'Josefin Sans', sans-serif;
+				+for_breakpoint(mobile)
+					display: inline
+					border-bottom 1px solid white
+			input[type="number"]
+				border-bottom 1px solid white	
+			input,
+			textarea,
+			label
+				font-size 16px !important
+				color white
+				max-width 100% !important
+				padding 10px
+			+for_breakpoint(mobile)
+				label
+					padding: 10px!important
+				input,
+				textarea
+					padding: 30px!important
+				&::placeholder
+					color white
+					font-weight bold
+			.buttonReserva
+				display block
+				text-align center
+				button
+					background-color: #FBB620
+					border 1px solid black
+					border-radius: 0
+					color black
+					padding 15px 32px
+					text-align center
+					text-decoration none
+					font-size 16px
+					cursor pointer
+					font-weight bold
+			div.row
+				margin-top 5px
+				padding 10px
+				.center-block
+					text-align center
+					padding 10px
+			input[type="text"]:focus,
+			input[type="number"]:focus,
+			input[type="email"]:focus,
+			input[type="tel"]:focus,
+			input[type="date"]:focus,
+			input[type="time"]:focus,
+			textarea:focus
+				border-bottom 1px solid black
+				box-shadow none !important
+				outline none !important
 	
 
 
