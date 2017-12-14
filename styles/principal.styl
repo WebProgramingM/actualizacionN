@@ -119,9 +119,15 @@ a
 		top: 6vh
 		+for_breakpoint(mobile)
 			top: 28vh
-		img
+		.bell
 			max-width 80vw
-
+			max-height: 60vh
+			+for_breakpoint(desktop)
+				padding-top: 90px
+			+for_breakpoint(tablet)
+				padding-top: 90px
+.home
+	padding-top: 10vh
 #section1
 	color white
 	.homenu
@@ -267,7 +273,7 @@ a
 			background-color rgba(0, 0, 0, .80)
 			right 20px
 			bottom 30px
-		
+	
 #map
 	width 100%
 	height 100%
