@@ -456,17 +456,19 @@ footer
 				box-shadow none !important
 				border-radius: 0
 				border-bottom 1px solid white
+				+for_breakpoint(mobile)
+					width: 100%!important
 			input[type="date"],
 			input[type="time"],
 			input[type="number"]
 				background rgba(255, 255, 255, 0)
 				border none
-				width 50%
+				width: 100%
 				border-radius: 0
 				border-bottom 1px solid white
 				box-shadow none !important
 				font-family: 'Josefin Sans', sans-serif;
-				+for_breakpoint(mobile)
+				
 					display: inline
 					border-bottom 1px solid white
 			input[type="number"]
