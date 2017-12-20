@@ -385,4 +385,7 @@ function initMap() {
     });
 }
 
+function popup() {
+    document.getElementById("popup").style.display = "none";
+}
 
