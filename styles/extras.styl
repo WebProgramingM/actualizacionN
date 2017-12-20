@@ -372,12 +372,11 @@ h1,h2,h3,h4,h5,p
 // 		justify-content: center
 			
 .menuCena
-	background black url('/img/new_year.png') no-repeat center center !important
-	// background black !important
-	// background-image url('/img/new_year.png') !important
-	// background-position center center
-	// background-repeat no-repeat
-	background-size: contain
+	background black !important
+	background-image url('/img/new_year.png')
+	background-position center center
+	background-repeat no-repeat
+	background-size: 100%
 	color white
 	h1, h2, h3, h4, h5, p,small
 		font-family: 'Lato', sans-serif !important;
@@ -457,12 +456,15 @@ footer
 				box-shadow none !important
 				border-radius: 0
 				border-bottom 1px solid white
+				width: 100%
+				+for_breakpoint(mobile)
+					width: 100%
 			input[type="date"],
 			input[type="time"],
 			input[type="number"]
 				background rgba(255, 255, 255, 0)
 				border none
-				width 50%
+				width: 100%
 				border-radius: 0
 				border-bottom 1px solid white
 				box-shadow none !important
