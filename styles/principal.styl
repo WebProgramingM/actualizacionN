@@ -96,8 +96,8 @@ a
 	top 0
 	right 0
 	width 100%
-	height 100%
-	background-size 100% 100%
+	height 95%
+	background-size cover
 	background-color black
 	background-position center center
 	background-size contain
@@ -106,13 +106,14 @@ a
 		
 #section0
 	background-color black
-	overflow: hidden;
+	overflow-x: hidden;
+	height: 100vh
 	+for_breakpoint(mobile)
 		background-image url('../img/mobile-home.jpg')
 		background-position center
 		background-size cover
 	.layer
-		position: absolute;
+		position: relative
 		z-index: 4;
 		width: 100%;
 		left: 0;
@@ -127,13 +128,17 @@ a
 			+for_breakpoint(tablet)
 				padding-top: 90px
 .home
-	padding-top: 10vh
+	padding-top: 20vh
 #section1
+	height: 100vh !important
 	color white
+	position: relative
+	z-index 6vh
 	.homenu
 		background-image url('../img/menuback02.jpg')
 		background-size cover
 		text-align left
+		height 100vh
 		+for_breakpoint(mobile)
 			background-image url('../img/menumobile.jpg')
 		h2
