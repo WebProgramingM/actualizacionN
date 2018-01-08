@@ -17,7 +17,7 @@
 	</div>
 	</div>#}
 	<div id="fullpage">
-		<div class="section " id="section0">
+		<section {# class="mb-5"  #}id="section0">
 			{#<ul id="menu-home" class="hidden-xs">
 				<li><a href="#Menue/menuhome" >Menú</a></li>
 				<li><a href="#Reserve" >Reservaciones</a></li>
@@ -25,7 +25,7 @@
 				<li><a href="#Gallery" >Galeria</a></li>
 				<li><a href="#Contact" >Contacto</a></li>
 			</ul>#}
-			<div class="overlaypattern"></div>
+			<div class="embed-responsive overlaypattern"></div>
 			<video autoplay loop muted data-keepplaying class="" id="videohome">
 				<source src="video/nomads.mp4" type="video/mp4">
 				<source src="video/nomads.webm" type="video/webm">
@@ -43,14 +43,14 @@
 				<br>
 				<br>
 			</div>
-		</div>
+		</section>
 	
-		<div class="section fp-auto-height-responsive" id="section1">
-			{# <div class="slide homenu" data-anchor="homemenu">
+		<section id="section1">
+			<div class="homenu" data-anchor="homemenu">
 				<div class="container inner">
 					<div class="row">
 						<div class="col-xs-10 col-xs-offset-1 col-sm-6 col-sm-offset-6">
-							<h2>ME<br>&nbsp;&nbsp;NÚ</h2>
+							<h2 class="mt-5">ME<br>&nbsp;&nbsp;NÚ</h2>
 							<p>Una experiencia completamente nueva instalada en una atmósfera cálida y tropical. Inspirada en los viajeros a través de los sabores que recorren el mundo; le ponemos nuestra personalidad a cada una de nuestros platillos y bebidas.</p>
 							<a href="#Menue/menudisplay1" class="btn btn-nomads flat">Mirar el Menu</a> <br>
 							<a href="/menu-english-nomads-march.pdf">English Menu</a>
@@ -58,11 +58,11 @@
 						</div>
 					</div>
 				</div>
-			</div> #}
-		</div>
+			</div>
+		</section>
 
 
-		{#<div class="section fp-auto-height-responsive" id="section2">
+		<section class="section fp-auto-height-responsive" id="section2">
 			<div class="container inner">
 				<div class="row">
 					<div class="col-xs-12 col-sm-4">
@@ -74,10 +74,10 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</section>
 
 
-		<div class="section fp-auto-height" id="section3">
+		<section class="section fp-auto-height" id="section3">
 			<div class="grid nomads_gallery" itemscope itemtype="http://schema.org/ImageGallery"> 			
 	{% for image in gallery %}
 					
@@ -89,18 +89,17 @@
 				{% endfor %}
 
 			</div>
-		</div>
+		</section>
 
-		<div class="section" id="section4">
+		<section class="section" id="section4">
 			<div class="address">
 				<p>Avenida Carlos Nader, lote 19 , manzana 2, Supermanzana 3, 3, 77500 Cancún, QROO</p>
 				<p>Horario: <br> Domingo a Miércoles 1 p.m. - 2 a.m. Jueves a Sábado 1 p.m. hasta cerrar</p>
 			</div>
 			<div id="map"></div>
-		</div>
+		</section>
 
-		<div class="section fp-auto-height-responsive" id="section5">
-			<div class="container inner">
+		<section class="container-fluid fp-auto-height-responsive" id="section5">			
 				<div class="row">
 					<div class="col-xs-12 col-sm-6 col-sm-offset-6" id="contacto">
 						<h2>Contáctanos;</h2>
@@ -155,9 +154,7 @@
 						</form>	
 			</div>
 		</div>
-	</div>
-
-	</div>#}
+	</section>
 </div>
 {% endblock %}
 
