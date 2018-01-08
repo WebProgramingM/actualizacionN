@@ -107,12 +107,13 @@ a
 #section0
 	background-color black
 	overflow: hidden;
+	height: 100vh
 	+for_breakpoint(mobile)
 		background-image url('../img/mobile-home.jpg')
 		background-position center
 		background-size cover
 	.layer
-		position: absolute;
+		position: relative
 		z-index: 4;
 		width: 100%;
 		left: 0;
@@ -129,6 +130,7 @@ a
 .home
 	padding-top: 10vh
 #section1
+	min-height: 100vh!important
 	color white
 	.homenu
 		background-image url('../img/menuback02.jpg')
