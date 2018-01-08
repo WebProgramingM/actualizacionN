@@ -7,7 +7,7 @@
 		'imgmobile' => 'img/sliders/slidermovil1.jpg'
 	);
 
-	$params= array(
+	 $params= array(
 		'titulo' => "Hola Mundo",
 		'sliders' => $sliders,
 		'gallery' => array(
