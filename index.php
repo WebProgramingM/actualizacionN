@@ -1,6 +1,6 @@
 <?php 
 
-	require 'twig.php';
+ 	require 'twig.php';
 	
 	$sliders[0] = array(
 		'img' => 'img/sliders/slider1.jpg',
